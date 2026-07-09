@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Strategic SEO -->
+    <title>Edco Ventures | Enterprise Software & Venture Studio</title>
+    <meta name="description"
+        content="15 years of excellence in SaaS, Fintech Payment Systems, and Cloud Infrastructure.">
+
+    <!-- CDN: Google Fonts (Outfit & Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- CDN: Bootstrap 5.3.2 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CDN: FontAwesome 6.5.1 (All Icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- CDN: AOS Animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- CDN: Swiper Slider CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Custom Branding Style Overrides -->
+    <style>
+        :root {
+            --edco-primary: #6366f1;
+            /* Modern Indigo */
+            --edco-secondary: #10b981;
+            /* Success Emerald */
+            --edco-dark: #0f172a;
+            /* Slate 900 */
+            --edco-accent: #f8fafc;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #475569;
+            overflow-x: hidden;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        .display-5 {
+            font-family: 'Outfit', sans-serif;
+            color: var(--edco-dark);
+            font-weight: 800;
+        }
+
+        /* Modernized Navigation */
+        .navbar {
+            transition: all 0.3s ease;
+            padding: 20px 0;
+        }
+
+        .sticky-header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        .nav-link {
+            font-weight: 500;
+            color: var(--edco-dark) !important;
+            padding: 10px 15px !important;
+        }
+
+        /* Hero Section - Gradient & Impact */
+        .hero-premium {
+            background: radial-gradient(circle at top right, #1e1b4b, #0f172a);
+            padding: 180px 0 120px;
+            color: #fff;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-premium::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://www.transparenttextures.com/patterns/carbon-fibre.png');
+            opacity: 0.05;
+        }
+
+        .btn-edco {
+            background: var(--edco-primary);
+            color: white;
+            border-radius: 10px;
+            padding: 14px 30px;
+            font-weight: 600;
+            border: none;
+            transition: 0.3s;
+        }
+
+        .btn-edco:hover {
+            background: var(--edco-secondary);
+            transform: translateY(-3px);
+            color: white;
+        }
+
+        /* Product Mega Menu Refinement */
+        .dropdown-menu {
+            border: none;
+            border-radius: 15px;
+            padding: 25px;
+            min-width: 700px;
+        }
+
+        .drop-heading {
+            color: var(--edco-primary);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        .dropdown-info .drop-title {
+            font-weight: 700;
+            font-size: 0.95rem;
+            color: var(--edco-dark);
+        }
+
+        .dropdown-info p {
+            font-size: 0.8rem;
+            margin: 0;
+            color: #64748b;
+        }
+
+        .dropdown-link {
+            display: flex;
+            align-items: center;
+            padding: 12px;
+            border-radius: 10px;
+            text-decoration: none;
+            transition: 0.2s;
+        }
+
+        .dropdown-link:hover {
+            background: var(--edco-accent);
+        }
+
+        .demo-list {
+            width: 28px;
+            height: 28px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 12px;
+            font-size: 0.7rem;
+        }
+
+        /* Footer */
+        .footer-dark {
+            background: #020617;
+            color: #94a3b8;
+            padding: 100px 0 50px;
+        }
+
+        .footer-dark h3 {
+            color: #fff;
+            font-size: 1.1rem;
+            margin-bottom: 25px;
+        }
+
+        .footer-link {
+            color: #94a3b8;
+            text-decoration: none;
+            transition: 0.3s;
+            line-height: 2.2;
+        }
+
+        .footer-link:hover {
+            color: var(--edco-primary);
+            padding-left: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main-wrapper">
+        <!-- Navigation -->
+        <header class="main-header position-absolute w-100">
+            <nav class="navbar navbar-expand-xl navbar-light">
+                <div class="container">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="assets/img/logo-white.png" alt="Edco Ventures" style="height: 45px;" />
+                    </a>
+
+                    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav">
+                        <i class="fa-solid fa-bars-staggered"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Ecosystem</a>
+                                <div class="dropdown-menu shadow-lg">
+                                    <div class="row">
+                                        <!-- Application Column -->
+                                        <div class="col-md-4">
+                                            <h6 class="drop-heading">Enterprise SaaS</h6>
+                                            <a href="#" class="dropdown-link">
+                                                <span class="demo-list bg-primary text-white rounded">01</span>
+                                                <div class="dropdown-info">
+                                                    <div class="drop-title">eLearning Pro</div>
+                                                    <p>School Management</p>
+                                                </div>
+                                            </a>
+                                            <a href="sms/" class="dropdown-link">
+                                                <span class="demo-list bg-primary text-white rounded">02</span>
+                                                <div class="dropdown-info">
+                                                    <div class="drop-title">SMSBox-247</div>
+                                                    <p>Bulk SMS Portal</p>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="dropdown-link">
+                                                <span class="demo-list bg-primary text-white rounded">03</span>
+                                                <div class="dropdown-info">
+                                                    <div class="drop-title">Ekkilsia</div>
+                                                    <p>Church Management</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <!-- Payment Column -->
+                                        <div class="col-md-4 border-start border-end">
+                                            <h6 class="drop-heading">Fintech Systems</h6>
+                                            <a href="#" class="dropdown-link">
+                                                <span class="demo-list bg-success text-white rounded">09</span>
+                                                <div class="dropdown-info">
+                                                    <div class="drop-title">Swap</div>
+                                                    <p>Currency Exchange</p>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="dropdown-link">
+                                                <span class="demo-list bg-success text-white rounded">10</span>
+                                                <div class="dropdown-info">
+                                                    <div class="drop-title">Quest Pay</div>
+                                                    <p>Scan-to-Pay Gateway</p>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="dropdown-link">
+                                                <span class="demo-list bg-success text-white rounded">11</span>
+                                                <div class="dropdown-info">
+                                                    <div class="drop-title">CashWired</div>
+                                                    <p>Digital Banking</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <!-- Cloud Column -->
+                                        <div class="col-md-4">
+                                            <h6 class="drop-heading">Cloud & Server</h6>
+                                            <a href="#" class="dropdown-link">
+                                                <span class="demo-list bg-dark text-white rounded">15</span>
+                                                <div class="dropdown-info">
+                                                    <div class="drop-title">VOD Manager</div>
+                                                    <p>Video Streaming</p>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="dropdown-link">
+                                                <span class="demo-list bg-dark text-white rounded">18</span>
+                                                <div class="dropdown-info">
+                                                    <div class="drop-title">Virtual Machine</div>
+                                                    <p>Node Infrastructure</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="?page=about" class="nav-link">Intelligence</a></li>
+                            <li class="nav-item"><a href="?page=services" class="nav-link">Solutions</a></li>
+                            <li class="nav-item"><a href="?page=training" class="nav-link">Academy</a></li>
+                            <li class="nav-item"><a href="?page=contact" class="nav-link">Contact</a></li>
+                        </ul>
+                        <div class="d-flex align-items-center">
+                            <a href="#" class="btn btn-edco ms-lg-3">Request Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero-premium">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7" data-aos="fade-up" data-aos-duration="1000">
+                        <h1 class="display-3 text-white mb-4">Engineering the <span class="text-info">Digital
+                                Evolution</span> of Enterprise.</h1>
+                        <p class="lead text-white-50 mb-5">
+                            For 15 years, Edco Ventures has architected high-scale software ecosystems,
+                            secure fintech payment systems, and robust cloud infrastructure for global leaders.
+                        </p>
+                        <div class="d-flex gap-3">
+                            <a href="#" class="btn btn-edco">Explore Solutions</a>
+                            <a href="#" class="btn btn-outline-light px-4 py-3 rounded-3 fw-bold">
+                                <i class="fa-solid fa-play me-2"></i> Vision 2026
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 d-none d-lg-block" data-aos="zoom-in">
+                        <img src="assets/img/banner_image.png" class="img-fluid" alt="Edco Tech"
+                            style="filter: drop-shadow(0 20px 50px rgba(0,0,0,0.5));">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Us Section -->
+        <section class="py-5 bg-white">
+            <div class="container py-5">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-right">
+                        <div class="position-relative">
+                            <img src="assets/img/about.jpg" class="img-fluid rounded-4 shadow-lg" alt="Innovation">
+                            <div
+                                class="bg-primary text-white p-4 rounded-4 position-absolute bottom-0 start-0 translate-middle-x ms-5 d-none d-md-block">
+                                <h2 class="text-white mb-0">15+</h2>
+                                <p class="small mb-0">Years of Innovation</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ps-lg-5" data-aos="fade-left">
+                        <h6 class="text-primary fw-bold text-uppercase">Venture Studio Expertise</h6>
+                        <h2 class="display-5 mb-4">We Build Infrastructure That Scales.</h2>
+                        <p>We don't just deliver software; we provide the architectural foundation for business growth.
+                            From local SMEs to international banking networks, Edco Ventures ensures reliability.</p>
+
+                        <div class="row mt-5">
+                            <div class="col-md-6 mb-4">
+                                <div class="d-flex align-items-center">
+                                    <i class="fa-solid fa-cloud-arrow-up fa-2x text-primary me-3"></i>
+                                    <h6 class="mb-0 fw-bold">Cloud Engineering</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <div class="d-flex align-items-center">
+                                    <i class="fa-solid fa-shield-halved fa-2x text-primary me-3"></i>
+                                    <h6 class="mb-0 fw-bold">Cyber Security</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <div class="d-flex align-items-center">
+                                    <i class="fa-solid fa-code fa-2x text-primary me-3"></i>
+                                    <h6 class="mb-0 fw-bold">Custom SaaS</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <div class="d-flex align-items-center">
+                                    <i class="fa-solid fa-microchip fa-2x text-primary me-3"></i>
+                                    <h6 class="mb-0 fw-bold">IT Academy</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 mb-5">
+                        <img src="assets/img/logo-white.png" class="mb-4" style="height: 40px;" alt="Edco White">
+                        <p>Pioneering the digital frontier since 2011. Edco Ventures provides the tools and intelligence
+                            needed to succeed in a hyper-connected world.</p>
+                        <div class="d-flex gap-3 mt-4">
+                            <a href="#" class="text-white"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+                            <a href="#" class="text-white"><i class="fa-brands fa-x-twitter fa-xl"></i></a>
+                            <a href="#" class="text-white"><i class="fa-brands fa-github fa-xl"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4">
+                        <h3>Applications</h3>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="footer-link">Bulk SMS Portal</a></li>
+                            <li><a href="#" class="footer-link">E-Ledger Systems</a></li>
+                            <li><a href="#" class="footer-link">Ekkilsia Church</a></li>
+                            <li><a href="#" class="footer-link">myLibrary Pro</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-4">
+                        <h3>Fintech</h3>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="footer-link">Currency Swap</a></li>
+                            <li><a href="#" class="footer-link">Quest Pay Scan</a></li>
+                            <li><a href="#" class="footer-link">CashWired Bank</a></li>
+                            <li><a href="#" class="footer-link">PayMe Fees</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-4">
+                        <h3>Infrastructure</h3>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="footer-link">Cloud VOD</a></li>
+                            <li><a href="#" class="footer-link">Virtual Nodes</a></li>
+                            <li><a href="#" class="footer-link">CDN Streaming</a></li>
+                            <li><a href="#" class="footer-link">Digital Marketing</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="mt-5 border-secondary opacity-25">
+                <div class="text-center mt-4">
+                    <p class="small mb-0">&copy; 2024 Edco Ventures. All Global Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- CDN: jQuery 3.7.1 -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- CDN: Bootstrap 5.3.2 Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- CDN: AOS Animations JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- CDN: Swiper Slider JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        // Initialize Animations
+        AOS.init({ once: true });
+
+        // Sticky Header Effect
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 50) {
+                $('.navbar').addClass('sticky-header');
+            } else {
+                $('.navbar').removeClass('sticky-header');
+            }
+        });
+    </script>
+</body>
+
+</html>
