@@ -194,6 +194,14 @@
                             <p class="small mb-0">Increase communication across globalized teams and a mobile workforce through dynamic networking challenges.</p>
                         </div>
                     </div>
+                    <!-- Prop 6 -->
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                        <div class="value-card">
+                            <div class="value-icon"><i class="fa-solid fa-rocket"></i></div>
+                            <h5 class="fw-bold">Scalable Growth</h5>
+                            <p class="small mb-0">Scale your operations confidently with flexible infrastructure designed to grow with your business at every stage.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -210,7 +218,7 @@
                     <!-- Team 1 -->
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                         <div class="team-card">
-                            <img src="assets/img/Nesta Adjetey Osekre.png" class="team-img" alt="CEO">
+                            <img src="/assets/img/Nesta Adjetey Osekre.webp" class="team-img" alt="CEO">
                             <h5 class="fw-bold mb-1">Nesta Adjetey Osekre</h5>
                             <p class="text-primary small fw-bold mb-3">Chief Executive Officer</p>
                             <p class="small text-muted px-3 mb-4">Focusing on binding business and technology across global footprints.</p>
@@ -223,7 +231,7 @@
                     <!-- Team 2 -->
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                         <div class="team-card">
-                            <img src="assets/img/Andrew Quaye.png" class="team-img" alt="CTO">
+                            <img src="/assets/img/Andrew Quaye.webp" class="team-img" alt="CTO">
                             <h5 class="fw-bold mb-1">Andrew Quaye</h5>
                             <p class="text-primary small fw-bold mb-3">Chief Technology Officer</p>
                             <p class="small text-muted px-3 mb-4">Architecting scalable infrastructures for remote sites across continents.</p>
@@ -236,7 +244,7 @@
                     <!-- Team 3 -->
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                         <div class="team-card">
-                            <img src="assets/img/CA Beata Lamisi Akusung.JPG" class="team-img" alt="Senior Accountant">
+                            <img src="/assets/img/CA Beata Lamisi Akusung.webp" class="team-img" alt="Senior Accountant">
                             <h5 class="fw-bold mb-1">Beata Lamisi Akusung</h5>
                             <p class="text-primary small fw-bold mb-3">Senior Accountant</p>
                             <p class="small text-muted px-3 mb-4">Driving financial excellence and cost management across the business ecosystem.</p>
