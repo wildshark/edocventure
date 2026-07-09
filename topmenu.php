@@ -88,6 +88,13 @@ body {
 
 /* Premium ribbon styles */
 .accent-ribbon {
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, var(--edoc-primary), var(--edoc-cyan), var(--edoc-purple), transparent);
+    position: relative;
+    z-index: 999;
+}
+.accent-ribbon-top {
     position: absolute;
     top: 0;
     left: 0;
@@ -781,7 +788,7 @@ body[data-theme="dark"] .newsletter-input::placeholder {
     });
 </script>
 <!-- PREMIUM ACCENTS & FLOATING SHAPES -->
-<div class="accent-ribbon"></div>
+<div class="accent-ribbon-top"></div>
 <div class="floating-ribbon floating-ribbon-1 d-none d-md-block"></div>
 <div class="floating-ribbon floating-ribbon-2 d-none d-md-block"></div>
 
@@ -802,6 +809,7 @@ body[data-theme="dark"] .newsletter-input::placeholder {
 
         <!-- NAVIGATION -->
         <header class="main-header sticky-top">
+            <div class="accent-ribbon"></div>
             <nav class="navbar navbar-expand-xl navbar-light">
                 <div class="container">
                     <a href="/home" class="navbar-brand">
