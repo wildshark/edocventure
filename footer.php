@@ -65,7 +65,7 @@
                         <div class="col-md-6 text-center text-md-end">
                             <a href="?page=privacy" class="text-white-50 text-decoration-none me-3">Privacy</a>
                             <a href="?page=terms" class="text-white-50 text-decoration-none me-3">Terms</a>
-                            <a href="#" class="text-white-50 text-decoration-none">SLA</a>
+                            <a href="?page=sla" class="text-white-50 text-decoration-none">SLA</a>
                         </div>
                     </div>
                 </div>

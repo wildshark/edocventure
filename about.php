@@ -213,8 +213,8 @@
                             <p class="text-primary small fw-bold mb-3">Chief Executive Officer</p>
                             <p class="small text-muted px-3 mb-4">Focusing on binding business and technology across global footprints.</p>
                             <div class="team-social">
-                                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="https://www.linkedin.com/in/nesta-adjetey-osekre" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://x.com/EdcoVentures" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
                             </div>
                         </div>
                     </div>
@@ -226,8 +226,8 @@
                             <p class="text-primary small fw-bold mb-3">Chief Technology Officer</p>
                             <p class="small text-muted px-3 mb-4">Architecting scalable infrastructures for remote sites across continents.</p>
                             <div class="team-social">
-                                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                                <a href="#"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/andrew-quaye" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://github.com" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
                             </div>
                         </div>
                     </div>
@@ -239,8 +239,8 @@
                             <p class="text-primary small fw-bold mb-3">Senior Accountant</p>
                             <p class="small text-muted px-3 mb-4">Driving financial excellence through meticulous accounting, budgeting and strategic cost management for clients across the business ecosystem.</p>
                             <div class="team-social">
-                                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="https://www.linkedin.com/in/beata-lamisi-akusung" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://x.com/EdcoVentures" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
                             </div>
                         </div>
                     </div>

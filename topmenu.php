@@ -337,6 +337,7 @@ body[data-theme="dark"] .radio-card,
 body[data-theme="dark"] .vod-card,
 body[data-theme="dark"] .sector-card,
 body[data-theme="dark"] .node-card,
+body[data-theme="dark"] .glass-card,
 body[data-theme="dark"] .feature-card {
     background-color: #111827 !important;
     border-color: rgba(255, 255, 255, 0.08) !important;
@@ -375,6 +376,9 @@ body[data-theme="dark"] .feature-card h5,body[data-theme="dark"] .feature-card h
 body[data-theme="dark"] .value-card h1, body[data-theme="dark"] .value-card h2,
 body[data-theme="dark"] .value-card h3, body[data-theme="dark"] .value-card h4,
 body[data-theme="dark"] .value-card h5, body[data-theme="dark"] .value-card h6,
+body[data-theme="dark"] .glass-card h1, body[data-theme="dark"] .glass-card h2,
+body[data-theme="dark"] .glass-card h3, body[data-theme="dark"] .glass-card h4,
+body[data-theme="dark"] .glass-card h5, body[data-theme="dark"] .glass-card h6,
 body[data-theme="dark"] .team-card h1,  body[data-theme="dark"] .team-card h2,
 body[data-theme="dark"] .team-card h3,  body[data-theme="dark"] .team-card h4,
 body[data-theme="dark"] .team-card h5,  body[data-theme="dark"] .team-card h6 {

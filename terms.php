@@ -35,14 +35,26 @@
         }
         .content-container { margin-top: -100px; padding-bottom: 100px; }
         .glass-card {
-            background: rgba(255, 255, 255, 0.85);
-            backdrop-filter: blur(20px) saturate(180%);
-            -webkit-backdrop-filter: blur(20px) saturate(180%);
-            border: 1px solid rgba(255, 255, 255, 0.5);
+            background: rgba(255, 255, 255, 0.97);
+            border: 1px solid rgba(0, 0, 0, 0.06);
             border-radius: 24px;
             box-shadow: 0 40px 100px rgba(0,0,0,0.08);
             padding: 50px;
         }
+
+        /* === DARK MODE === */
+        body[data-theme="dark"] { background-color: #0b0f19 !important; color: #cbd5e1 !important; }
+        body[data-theme="dark"] h1, body[data-theme="dark"] h2,
+        body[data-theme="dark"] h3, body[data-theme="dark"] h4,
+        body[data-theme="dark"] h5, body[data-theme="dark"] h6 { color: #f1f5f9 !important; }
+        body[data-theme="dark"] p, body[data-theme="dark"] li,
+        body[data-theme="dark"] .text-muted { color: #cbd5e1 !important; }
+        body[data-theme="dark"] .glass-card {
+            background: #111827 !important;
+            border-color: rgba(255, 255, 255, 0.08) !important;
+            box-shadow: 0 40px 100px rgba(0,0,0,0.4) !important;
+        }
+        body[data-theme="dark"] .page-header { background: radial-gradient(circle at 0% 0%, #1e1b4b, #0b0f19) !important; }
     </style>
 </head>
 <body>

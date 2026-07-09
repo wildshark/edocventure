@@ -162,6 +162,13 @@ if(!isset($_REQUEST['submit'])){
                     include 'home.php';
                 }
                 break;
+            case 'sla':
+                if(file_exists('sla.php')){
+                    include 'sla.php';
+                } else {
+                    include 'home.php';
+                }
+                break;
             default:
                 include 'home.php';
                 break;
