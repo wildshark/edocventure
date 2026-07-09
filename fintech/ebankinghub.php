@@ -104,6 +104,7 @@
         body[data-theme="dark"] .feature-card,
         body[data-theme="dark"] .value-card,
         body[data-theme="dark"] .course-card,
+        body[data-theme="dark"] .pillar-card,
         body[data-theme="dark"] .stat-card { background: #1e293b !important; border-color: rgba(255,255,255,0.08) !important; }
         body[data-theme="dark"] .product-hero, body[data-theme="dark"] .page-header,
         body[data-theme="dark"] .service-hero, body[data-theme="dark"] .academy-hero { color: #f8fafc !important; }

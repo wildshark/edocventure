@@ -329,6 +329,7 @@ body[data-theme="dark"] .contact-card,
 body[data-theme="dark"] .lab-box,
 body[data-theme="dark"] .stat-card,
 body[data-theme="dark"] .team-card,
+body[data-theme="dark"] .pillar-card,
 body[data-theme="dark"] .feature-card {
     background-color: #111827 !important;
     border-color: rgba(255, 255, 255, 0.08) !important;
@@ -405,6 +406,7 @@ body[data-theme="dark"] .hero-badge {
 
 body[data-theme="dark"] p,
 body[data-theme="dark"] li,
+body[data-theme="dark"] .feature-item,
 body[data-theme="dark"] .text-muted {
     color: #cbd5e1 !important;
 }
