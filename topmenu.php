@@ -12,29 +12,29 @@
 }
 
 /* --- TOP MENU --- */
-.top-bar { background: var(--edco-topbar, #1e293b); color: rgba(255,255,255,0.7); padding: 10px 0; font-size: 0.85rem; }
+.top-bar { background: var(--edoc-topbar, #1e293b); color: rgba(255,255,255,0.7); padding: 10px 0; font-size: 0.85rem; }
 .top-bar a { color: rgba(255,255,255,0.7); text-decoration: none; transition: 0.3s; }
 .top-bar a:hover { color: #fff; }
 
 /* --- NAVIGATION --- */
 .navbar { padding: 15px 0; background: #fff; transition: 0.4s; border-bottom: 1px solid rgba(0,0,0,0.05); }
 .sticky-header { box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
-.nav-link { font-weight: 600; color: var(--edco-dark, #0f172a) !important; padding: 10px 18px !important; font-size: 0.95rem; }
+.nav-link { font-weight: 600; color: var(--edoc-dark, #0f172a) !important; padding: 10px 18px !important; font-size: 0.95rem; }
 
 /* --- MEGA MENU --- */
 .dropdown-menu { border: none; border-radius: 16px; padding: 25px; min-width: 750px; box-shadow: 0 20px 50px rgba(0,0,0,0.15); }
-.drop-heading { color: var(--edco-primary, #4f46e5); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1.5px; font-weight: 800; margin-bottom: 15px; border-bottom: 1px solid #f1f5f9; padding-bottom: 5px; }
+.drop-heading { color: var(--edoc-primary, #4f46e5); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1.5px; font-weight: 800; margin-bottom: 15px; border-bottom: 1px solid #f1f5f9; padding-bottom: 5px; }
 .dropdown-link { display: flex; align-items: start; padding: 12px; border-radius: 12px; text-decoration: none; transition: 0.3s; margin-bottom: 5px; }
 .dropdown-link:hover { background: #f8fafc; transform: translateX(5px); }
-.drop-icon { width: 32px; height: 32px; background: #eef2ff; color: var(--edco-primary, #4f46e5); border-radius: 8px; display: flex; align-items: center; justify-content: center; margin-right: 15px; flex-shrink: 0; font-size: 0.9rem; }
-.drop-title { display: block; font-weight: 700; color: var(--edco-dark, #0f172a); font-size: 0.9rem; margin-bottom: 2px; }
+.drop-icon { width: 32px; height: 32px; background: #eef2ff; color: var(--edoc-primary, #4f46e5); border-radius: 8px; display: flex; align-items: center; justify-content: center; margin-right: 15px; flex-shrink: 0; font-size: 0.9rem; }
+.drop-title { display: block; font-weight: 700; color: var(--edoc-dark, #0f172a); font-size: 0.9rem; margin-bottom: 2px; }
 .drop-desc { font-size: 0.75rem; color: #64748b; margin: 0; line-height: 1.2; }
 
 /* --- THEME TOGGLE & GLOBAL STYLES --- */
 .btn-theme-toggle {
     background: transparent;
     border: 1px solid rgba(0,0,0,0.1);
-    color: var(--edco-dark, #0f172a);
+    color: var(--edoc-dark, #0f172a);
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -50,15 +50,15 @@
     transform: rotate(15deg);
 }
 
-.btn-edco { background: var(--edco-primary, #4f46e5); color: white !important; border-radius: 10px; padding: 10px 24px; font-weight: 600; border: none; transition: 0.3s; text-decoration: none; display: inline-block; }
-.btn-edco:hover { background: #4338ca; transform: translateY(-2px); box-shadow: 0 10px 20px rgba(79, 70, 229, 0.3); color: white !important; }
+.btn-edoc { background: var(--edoc-primary, #4f46e5); color: white !important; border-radius: 10px; padding: 10px 24px; font-weight: 600; border: none; transition: 0.3s; text-decoration: none; display: inline-block; }
+.btn-edoc:hover { background: #4338ca; transform: translateY(-2px); box-shadow: 0 10px 20px rgba(79, 70, 229, 0.3); color: white !important; }
 
 /* --- PREMIUM THEME 5.0 CORE STYLES --- */
 :root {
-    --edco-primary: #4f46e5;
-    --edco-cyan: #06b6d4;
-    --edco-purple: #8b5cf6;
-    --edco-rose: #f43f5e;
+    --edoc-primary: #4f46e5;
+    --edoc-cyan: #06b6d4;
+    --edoc-purple: #8b5cf6;
+    --edoc-rose: #f43f5e;
     --bg-mesh: radial-gradient(circle at 15% 20%, rgba(79, 70, 229, 0.04) 0%, transparent 45%), 
                radial-gradient(circle at 85% 80%, rgba(6, 182, 212, 0.04) 0%, transparent 45%);
 }
@@ -76,7 +76,7 @@ body {
     left: 0;
     width: 100%;
     height: 5px;
-    background: linear-gradient(90deg, transparent, var(--edco-primary), var(--edco-cyan), var(--edco-purple), transparent);
+    background: linear-gradient(90deg, transparent, var(--edoc-primary), var(--edoc-cyan), var(--edoc-purple), transparent);
     z-index: 999;
 }
 
@@ -121,7 +121,7 @@ body {
     padding: 6px 16px;
     background: rgba(79, 70, 229, 0.08);
     border: 1px solid rgba(79, 70, 229, 0.15);
-    color: var(--edco-primary);
+    color: var(--edoc-primary);
     border-radius: 100px;
     font-size: 0.75rem;
     font-weight: 800;
@@ -153,7 +153,7 @@ body[data-theme="dark"] .badge-premium {
     content: '';
     position: absolute;
     top: 0; left: 0; width: 100%; height: 100%;
-    background: linear-gradient(135deg, var(--edco-primary), var(--edco-cyan));
+    background: linear-gradient(135deg, var(--edoc-primary), var(--edoc-cyan));
     opacity: 0;
     transition: opacity 0.4s ease;
     z-index: -1;
@@ -175,9 +175,9 @@ body[data-theme="dark"] {
     --bg-mesh: radial-gradient(circle at 15% 20%, rgba(79, 70, 229, 0.15) 0%, transparent 45%), 
                radial-gradient(circle at 85% 80%, rgba(6, 182, 212, 0.1) 0%, transparent 45%), 
                #0b0f19;
-    --edco-light: #0b0f19 !important;
-    --edco-footer: #0b0f19 !important;
-    --edco-topbar: #0f172a !important;
+    --edoc-light: #0b0f19 !important;
+    --edoc-footer: #0b0f19 !important;
+    --edoc-topbar: #0f172a !important;
     --academy-light: #111827 !important;
     background-image: var(--bg-mesh) !important;
     background-color: #0b0f19 !important;
@@ -494,7 +494,7 @@ img { max-width: 100%; height: auto; }
     .dropdown-menu .col-md-4 { width: 100%; margin-bottom: 8px; }
     .dropdown-link { padding: 10px 8px; }
     .navbar-collapse { padding: 12px 0; }
-    .navbar .btn-edco { display: none; } /* Hide CTA on small nav */
+    .navbar .btn-edoc { display: none; } /* Hide CTA on small nav */
 }
 
 /* --- NAVBAR --- */
@@ -675,7 +675,7 @@ img { max-width: 100%; height: auto; }
 /* Light mode defaults */
 .quote-box {
     background: #f8fafc;
-    border-left: 4px solid var(--edco-primary, #4f46e5);
+    border-left: 4px solid var(--edoc-primary, #4f46e5);
     color: #475569;
 }
 .quote-box p { color: #475569; }
@@ -772,7 +772,7 @@ body[data-theme="dark"] .newsletter-input::placeholder {
         <div class="top-bar d-none d-lg-block">
             <div class="container d-flex justify-content-between">
                 <div>
-                    <span class="me-4"><i class="fa-solid fa-envelope me-2 text-info"></i> solutions@edcoventures.com</span>
+                    <span class="me-4"><i class="fa-solid fa-envelope me-2 text-info"></i> solutions@edocventures.com</span>
                     <span><i class="fa-solid fa-phone me-2 text-info"></i> Global Support Enabled</span>
                 </div>
                 <div>
@@ -787,8 +787,8 @@ body[data-theme="dark"] .newsletter-input::placeholder {
         <header class="main-header sticky-top">
             <nav class="navbar navbar-expand-xl navbar-light">
                 <div class="container">
-                    <a href="?page=home" class="navbar-brand">
-                        <img src="/assets/img/EDCO.png" alt="Edco Ventures" style="height: 48px;" />
+                    <a href="/home" class="navbar-brand">
+                        <img src="/assets/img/EDOC.webp" alt="Edoc Ventures" style="height: 48px;" />
                     </a>
                     <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                         <i class="fa-solid fa-bars-staggered"></i>
@@ -801,41 +801,41 @@ body[data-theme="dark"] .newsletter-input::placeholder {
                                     <div class="row">
                                         <div class="col-md-4">
                                             <h6 class="drop-heading">Enterprise SaaS</h6>
-                                            <a href="?page=elearningpro" class="dropdown-link">
+                                            <a href="/elearningpro" class="dropdown-link">
                                                 <div class="drop-icon"><i class="fa-solid fa-graduation-cap"></i></div>
                                                 <div><span class="drop-title">eLearning Pro</span><p class="drop-desc">Advanced school management and e-learning integration.</p></div>
                                             </a>
-                                            <a href="?page=sms" class="dropdown-link">
+                                            <a href="/sms" class="dropdown-link">
                                                 <div class="drop-icon"><i class="fa-solid fa-comments"></i></div>
                                                 <div><span class="drop-title">SMSBox-247</span><p class="drop-desc">Enterprise-grade bulk messaging and gateway solutions.</p></div>
                                             </a>
-                                            <a href="?page=eaccounting" class="dropdown-link">
+                                            <a href="/eaccounting" class="dropdown-link">
                                                 <div class="drop-icon"><i class="fa-solid fa-book-bookmark"></i></div>
                                                 <div><span class="drop-title">eBook Keeping</span><p class="drop-desc">Sales, inventories, and smart store management.</p></div>
                                             </a>
                                         </div>
                                         <div class="col-md-4 border-start border-end">
-                                            <h6 class="drop-heading">Fintech Labs</h6>
-                                            <a href="?page=ebankinghub" class="dropdown-link">
+                                            <h6 class="drop-heading">Fintech</h6>
+                                            <a href="/ebankinghub" class="dropdown-link">
                                                 <div class="drop-icon"><i class="fa-solid fa-money-check-dollar"></i></div>
                                                 <div><span class="drop-title">eBanking Hub</span><p class="drop-desc">Modern digital banking and mobile wallet solutions.</p></div>
                                             </a>
-                                            <a href="?page=swaplabs" class="dropdown-link">
+                                            <a href="/swaplabs" class="dropdown-link">
                                                 <div class="drop-icon"><i class="fa-solid fa-repeat"></i></div>
                                                 <div><span class="drop-title">Swap Labs</span><p class="drop-desc">Real-time currency exchange and liquidity management.</p></div>
                                             </a>
-                                            <a href="?page=questpay" class="dropdown-link">
+                                            <a href="/questpay" class="dropdown-link">
                                                 <div class="drop-icon"><i class="fa-solid fa-qrcode"></i></div>
                                                 <div><span class="drop-title">Quest Pay</span><p class="drop-desc">High-speed scan-to-pay delivery payment systems.</p></div>
                                             </a>
                                         </div>
                                         <div class="col-md-4">
                                             <h6 class="drop-heading">Infrastructure</h6>
-                                            <a href="?page=cloud/virtualhode" class="dropdown-link">
+                                            <a href="/cloud/virtualhode" class="dropdown-link">
                                                 <div class="drop-icon"><i class="fa-solid fa-server"></i></div>
                                                 <div><span class="drop-title">Cloud Nodes</span><p class="drop-desc">Virtual machine orchestration and cloud hosting.</p></div>
                                             </a>
-                                            <a href="?page=cloud/vod" class="dropdown-link">
+                                            <a href="/cloud/vod" class="dropdown-link">
                                                 <div class="drop-icon"><i class="fa-solid fa-video"></i></div>
                                                 <div><span class="drop-title">VOD Manager</span><p class="drop-desc">Professional video content delivery and streaming.</p></div>
                                             </a>
@@ -843,15 +843,15 @@ body[data-theme="dark"] .newsletter-input::placeholder {
                                     </div>
                                 </div>
                             </li>
-                            <li class="nav-item"><a href="?page=about" class="nav-link">Company</a></li>
-                            <li class="nav-item"><a href="?page=services" class="nav-link">Intelligence</a></li>
-                            <li class="nav-item"><a href="?page=academy" class="nav-link">Academy</a></li>
+                            <li class="nav-item"><a href="/about" class="nav-link">Company</a></li>
+                            <li class="nav-item"><a href="/services" class="nav-link">Intelligence</a></li>
+                            <li class="nav-item"><a href="/academy" class="nav-link">Academy</a></li>
                         </ul>
                         <div class="d-flex align-items-center gap-3">
                             <button id="theme-toggle" class="btn-theme-toggle" aria-label="Toggle Theme">
                                 <i class="fa-solid fa-moon"></i>
                             </button>
-                            <a href="?page=quation" class="btn btn-edco">Get Started</a>
+                            <a href="/quation" class="btn btn-edoc">Get Started</a>
                         </div>
                     </div>
                 </div>

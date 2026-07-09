@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" href="/assets/img/EDCO.png" type="image/png">
+    <link rel="icon" href="/assets/img/EDOC.webp" type="image/webp">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>eAccounting | Edco Ventures - AI-Powered Bookkeeping & Financial Reporting</title>
+    <title>eAccounting | Edoc Ventures - AI-Powered Bookkeeping & Financial Reporting</title>
     <meta name="description" content="eAccounting: Advanced hybrid accounting system with AI-driven financial analysis and reporting for online and offline operations.">
 
     <!-- CDN: Google Fonts -->
@@ -22,20 +22,20 @@
 
     <style>
         :root {
-            --edco-primary: #4f46e5; 
-            --edco-dark: #0f172a;    
-            --edco-topbar: #1e293b;
-            --edco-footer: #020617;
+            --edoc-primary: #4f46e5; 
+            --edoc-dark: #0f172a;    
+            --edoc-topbar: #1e293b;
+            --edoc-footer: #020617;
             --ai-accent: #8b5cf6; /* Purple for AI Intelligence */
             --success-accent: #10b981;
         }
 
         body { font-family: 'Inter', sans-serif; color: #475569; overflow-x: hidden; line-height: 1.7; }
-        h1, h2, h3, h4, .display-4, .display-5 { font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--edco-dark); letter-spacing: -0.02em; }
+        h1, h2, h3, h4, .display-4, .display-5 { font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--edoc-dark); letter-spacing: -0.02em; }
 
         /* --- NAVIGATION --- */
         .navbar { background: #fff; border-bottom: 1px solid rgba(0,0,0,0.05); padding: 15px 0; }
-        .nav-link { font-weight: 600; color: var(--edco-dark) !important; padding: 10px 18px !important; }
+        .nav-link { font-weight: 600; color: var(--edoc-dark) !important; padding: 10px 18px !important; }
 
         /* --- PRODUCT HERO --- */
         .product-hero { 
@@ -68,7 +68,7 @@
 
         /* --- HYBRID/OFFLINE SECTION --- */
         .hybrid-box {
-            background: var(--edco-dark);
+            background: var(--edoc-dark);
             color: white;
             border-radius: 30px;
             padding: 80px 60px;
@@ -95,7 +95,7 @@
             transition: 0.3s; box-shadow: 0 10px 20px rgba(139, 92, 246, 0.3);
             text-decoration: none; display: inline-block;
         }
-        .btn-ai:hover { background: var(--edco-primary); color: white; transform: translateY(-3px); }
+        .btn-ai:hover { background: var(--edoc-primary); color: white; transform: translateY(-3px); }
 
         /* === DARK MODE OVERRIDES === */
         body[data-theme="dark"] { background-color: #0b0f19 !important; }
@@ -137,8 +137,8 @@
                             eAccounting is the definitive bookkeeping ecosystem for the modern dynamic business. Engineered with AI financial analysis and a hybrid offline-online architecture, we ensure your fiscal records are secure, synchronized, and strategically analyzed across all continents.
                         </p>
                         <div class="d-flex flex-column flex-sm-row gap-3">
-                            <a href="?page=quation" class="btn-ai"><i class="fa-solid fa-chart-line me-2"></i> Launch AI Demo</a>
-                            <a href="?page=quation" class="btn btn-outline-dark px-4 py-3 border-2 fw-bold rounded-3">Request Architecture Brief</a>
+                            <a href="/quation" class="btn-ai"><i class="fa-solid fa-chart-line me-2"></i> Launch AI Demo</a>
+                            <a href="/quation" class="btn btn-outline-dark px-4 py-3 border-2 fw-bold rounded-3">Request Architecture Brief</a>
                         </div>
                         <div class="mt-4 small text-muted">
                             <i class="fa-solid fa-wifi-slash me-2 text-danger"></i> Offline-First Database & Cloud Sync
@@ -246,10 +246,10 @@
                                 </div>
                             </div>
 
-                            <a href="?page=quation" class="btn btn-ai px-5 py-3 fw-bold">Explore AI Analytics</a>
+                            <a href="/quation" class="btn btn-ai px-5 py-3 fw-bold">Explore AI Analytics</a>
                         </div>
                         <div class="col-lg-5 d-none d-lg-block text-center">
-                            <img src="assets/img/eaccounting-dashboard-ghana.png" class="img-fluid rounded-4 shadow-lg border-primary" alt="Financial Dashboard">
+                            <img src="/assets/img/eaccounting-dashboard-ghana.webp" class="img-fluid rounded-4 shadow-lg border-primary" alt="Financial Dashboard">
                         </div>
                     </div>
                 </div>
@@ -262,7 +262,7 @@
                 <h2 class="display-5 mb-4">Modernize Your Fiscal Infrastructure</h2>
                 <p class="text-muted lead mb-5 mx-auto" style="max-width: 600px;">Unlock a more efficient way to manage books and analyze performance with the eAccounting ecosystem.</p>
                 <div class="d-flex justify-content-center gap-3">
-                    <a href="?page=quation" class="btn-ai"><i class="fa-solid fa-bolt me-2"></i> Experience AI Reporting</a>
+                    <a href="/quation" class="btn-ai"><i class="fa-solid fa-bolt me-2"></i> Experience AI Reporting</a>
                 </div>
             </div>
         </section>

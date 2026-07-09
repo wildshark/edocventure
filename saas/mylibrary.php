@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" href="/assets/img/EDCO.png" type="image/png">
+    <link rel="icon" href="/assets/img/EDOC.webp" type="image/webp">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>myLibrary | Edco Ventures - Hybrid Asset Management Ecosystem</title>
+    <title>myLibrary | Edoc Ventures - Hybrid Asset Management Ecosystem</title>
     <meta name="description" content="myLibrary: Advanced management for books, audio, and VOD. The ultimate educational asset hub with full online and offline capabilities.">
 
     <!-- CDN: Google Fonts -->
@@ -22,19 +22,19 @@
 
     <style>
         :root {
-            --edco-primary: #4f46e5; 
-            --edco-dark: #0f172a;    
-            --edco-topbar: #1e293b;
-            --edco-footer: #020617;
+            --edoc-primary: #4f46e5; 
+            --edoc-dark: #0f172a;    
+            --edoc-topbar: #1e293b;
+            --edoc-footer: #020617;
             --library-accent: #f59e0b; /* Amber for Knowledge/Library feel */
         }
 
         body { font-family: 'Inter', sans-serif; color: #475569; overflow-x: hidden; line-height: 1.7; }
-        h1, h2, h3, h4, .display-4, .display-5 { font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--edco-dark); letter-spacing: -0.02em; }
+        h1, h2, h3, h4, .display-4, .display-5 { font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--edoc-dark); letter-spacing: -0.02em; }
 
         /* --- NAVIGATION --- */
         .navbar { background: #fff; border-bottom: 1px solid rgba(0,0,0,0.05); padding: 15px 0; }
-        .nav-link { font-weight: 600; color: var(--edco-dark) !important; padding: 10px 18px !important; }
+        .nav-link { font-weight: 600; color: var(--edoc-dark) !important; padding: 10px 18px !important; }
 
         /* --- PRODUCT HERO --- */
         .product-hero { 
@@ -67,7 +67,7 @@
 
         /* --- HYBRID BLOCK --- */
         .hybrid-box {
-            background: var(--edco-dark);
+            background: var(--edoc-dark);
             color: white;
             border-radius: 30px;
             padding: 60px;
@@ -78,12 +78,12 @@
 
         /* --- CTA BUTTONS --- */
         .btn-demo-live { 
-            background: var(--edco-primary); color: white; border: none; 
+            background: var(--edoc-primary); color: white; border: none; 
             padding: 16px 35px; border-radius: 12px; font-weight: 700; 
             transition: 0.3s; box-shadow: 0 10px 20px rgba(79, 70, 229, 0.3);
             text-decoration: none; display: inline-block;
         }
-        .btn-demo-live:hover { background: var(--edco-dark); color: white; transform: translateY(-3px); }
+        .btn-demo-live:hover { background: var(--edoc-dark); color: white; transform: translateY(-3px); }
 
         .tag-offline { background: #dcfce7; color: #166534; padding: 4px 12px; border-radius: 6px; font-size: 0.7rem; font-weight: 700; }
         /* === DARK MODE OVERRIDES === */
@@ -122,8 +122,8 @@
                             myLibrary is a unified asset management ecosystem designed to bind physical books, digital audio, and high-definition video into a single educational hub. Built for institutions that demand both high-speed online streaming and reliable offline access.
                         </p>
                         <div class="d-flex flex-column flex-sm-row gap-3">
-                            <a href="?page=quation" class="btn-demo-live"><i class="fa-solid fa-play-circle me-2"></i> Launch Live Demo</a>
-                            <a href="?page=quation" class="btn btn-outline-dark px-4 py-3 border-2 fw-bold rounded-3">Solution Blueprint</a>
+                            <a href="/quation" class="btn-demo-live"><i class="fa-solid fa-play-circle me-2"></i> Launch Live Demo</a>
+                            <a href="/quation" class="btn btn-outline-dark px-4 py-3 border-2 fw-bold rounded-3">Solution Blueprint</a>
                         </div>
                         <div class="mt-4">
                             <span class="tag-offline me-2"><i class="fa-solid fa-wifi-slash me-1"></i> OFFLINE MODE READY</span>
@@ -131,7 +131,7 @@
                         </div>
                     </div>
                     <div class="col-lg-5" data-aos="zoom-in">
-                        <img src="assets/img/mylibrary-dashboard-ghana.png" class="img-fluid rounded-4 shadow-lg border" alt="Digital Library Mockup">
+                        <img src="/assets/img/mylibrary-dashboard-ghana.webp" class="img-fluid rounded-4 shadow-lg border" alt="Digital Library Mockup">
                     </div>
                 </div>
             </div>
@@ -158,7 +158,7 @@
                         <div class="feature-card">
                             <div class="feature-icon"><i class="fa-solid fa-clapperboard"></i></div>
                             <h5 class="fw-bold">VOD For Education</h5>
-                            <p class="small text-muted mb-0">Powered by Edco VOD Manager. Stream high-definition educational videos and lectures directly through the library portal.</p>
+                            <p class="small text-muted mb-0">Powered by Edoc VOD Manager. Stream high-definition educational videos and lectures directly through the library portal.</p>
                         </div>
                     </div>
                     <!-- Feature 3 -->
@@ -219,10 +219,10 @@
                                 <div><h6 class="text-white mb-0">Cross-Continent Asset Distribution</h6></div>
                             </div>
 
-                            <a href="?page=quation" class="btn btn-warning btn-lg px-4 py-3 fw-bold">Discuss Offline Infrastructure</a>
+                            <a href="/quation" class="btn btn-warning btn-lg px-4 py-3 fw-bold">Discuss Offline Infrastructure</a>
                         </div>
                         <div class="col-lg-6 d-none d-lg-block">
-                            <img src="assets/img/ghana-digital-library.png" class="img-fluid rounded-4" alt="Library Infrastructure">
+                            <img src="/assets/img/ghana-digital-library.webp" class="img-fluid rounded-4" alt="Library Infrastructure">
                         </div>
                     </div>
                 </div>
@@ -233,8 +233,8 @@
         <section class="py-5 bg-white text-center">
             <div class="container py-5">
                 <h2 class="display-5 mb-4">Bind Your Knowledge to Technology</h2>
-                <p class="text-muted lead mb-5 mx-auto" style="max-width: 600px;">Join the institutions that are redefining the library experience through Edco Ventures' intelligent ecosystems.</p>
-                <a href="?page=quation" class="btn-demo-live"><i class="fa-solid fa-rocket me-2"></i> Launch myLibrary Demo</a>
+                <p class="text-muted lead mb-5 mx-auto" style="max-width: 600px;">Join the institutions that are redefining the library experience through Edoc Ventures' intelligent ecosystems.</p>
+                <a href="/quation" class="btn-demo-live"><i class="fa-solid fa-rocket me-2"></i> Launch myLibrary Demo</a>
             </div>
         </section>
 

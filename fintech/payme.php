@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" href="/assets/img/EDCO.png" type="image/png">
+    <link rel="icon" href="/assets/img/EDOC.webp" type="image/webp">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>PayMe | Edco Ventures - Fees Billing & Collection Portal</title>
+    <title>PayMe | Edoc Ventures - Fees Billing & Collection Portal</title>
     <meta name="description" content="PayMe: The intelligent billing and fee collection portal with integrated coupon management for modern enterprises and institutions.">
 
     <!-- CDN: Google Fonts -->
@@ -22,20 +22,20 @@
 
     <style>
         :root {
-            --edco-primary: #4f46e5; 
-            --edco-dark: #0f172a;    
-            --edco-topbar: #1e293b;
-            --edco-footer: #020617;
+            --edoc-primary: #4f46e5; 
+            --edoc-dark: #0f172a;    
+            --edoc-topbar: #1e293b;
+            --edoc-footer: #020617;
             --payme-accent: #8b5cf6; /* Violet for Billing/Finance */
             --payme-soft: #f5f3ff;
         }
 
         body { font-family: 'Inter', sans-serif; color: #475569; overflow-x: hidden; line-height: 1.7; }
-        h1, h2, h3, h4, .display-4, .display-5 { font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--edco-dark); letter-spacing: -0.02em; }
+        h1, h2, h3, h4, .display-4, .display-5 { font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--edoc-dark); letter-spacing: -0.02em; }
 
         /* --- NAVIGATION --- */
         .navbar { background: #fff; border-bottom: 1px solid rgba(0,0,0,0.05); padding: 15px 0; }
-        .nav-link { font-weight: 600; color: var(--edco-dark) !important; padding: 10px 18px !important; }
+        .nav-link { font-weight: 600; color: var(--edoc-dark) !important; padding: 10px 18px !important; }
 
         /* --- PRODUCT HERO --- */
         .product-hero { 
@@ -68,7 +68,7 @@
 
         /* --- COUPON SECTION --- */
         .coupon-box {
-            background: var(--edco-dark);
+            background: var(--edoc-dark);
             color: white;
             border-radius: 30px;
             padding: 80px 60px;
@@ -84,7 +84,7 @@
             transition: 0.3s; box-shadow: 0 10px 20px rgba(139, 92, 246, 0.3);
             text-decoration: none; display: inline-block;
         }
-        .btn-payme:hover { background: var(--edco-primary); color: white; transform: translateY(-3px); }
+        .btn-payme:hover { background: var(--edoc-primary); color: white; transform: translateY(-3px); }
 
         .invoice-mockup {
             border: 1px solid #e2e8f0;
@@ -131,11 +131,11 @@
                         <span class="hero-badge">Smart Collection Ecosystem</span>
                         <h1 class="display-3 mb-4">Recover Revenue <br><span class="text-primary">Without the Friction.</span></h1>
                         <p class="lead mb-5 text-muted">
-                            PayMe is a high-performance fees billing and collection portal engineered to bind institutional operations with modern payment technology. Automate your invoicing, manage coupons, and secure your cash flow with Edco's world-class infrastructure.
+                            PayMe is a high-performance fees billing and collection portal engineered to bind institutional operations with modern payment technology. Automate your invoicing, manage coupons, and secure your cash flow with Edoc's world-class infrastructure.
                         </p>
                         <div class="d-flex flex-column flex-sm-row gap-3">
-                            <a href="?page=quation" class="btn-payme"><i class="fa-solid fa-play-circle me-2"></i> Launch Live Demo</a>
-                            <a href="?page=quation" class="btn btn-outline-dark px-4 py-3 border-2 fw-bold rounded-3">Request Quote</a>
+                            <a href="/quation" class="btn-payme"><i class="fa-solid fa-play-circle me-2"></i> Launch Live Demo</a>
+                            <a href="/quation" class="btn btn-outline-dark px-4 py-3 border-2 fw-bold rounded-3">Request Quote</a>
                         </div>
                         <div class="mt-4 small text-muted">
                             <i class="fa-solid fa-file-invoice me-2 text-primary"></i> Automated Invoicing & Bulk Reminders
@@ -249,10 +249,10 @@
                                 </div>
                             </div>
 
-                            <a href="?page=quation" class="btn btn-info btn-lg px-4 py-3 fw-bold text-white">Start Smart Billing</a>
+                            <a href="/quation" class="btn btn-info btn-lg px-4 py-3 fw-bold text-white">Start Smart Billing</a>
                         </div>
                         <div class="col-lg-5 d-none d-lg-block text-center">
-                            <img src="assets/img/fintech-payme-financial-success.png" class="img-fluid rounded-4 shadow-lg" alt="Financial Success">
+                            <img src="/assets/img/fintech-payme-financial-success.webp" class="img-fluid rounded-4 shadow-lg" alt="Financial Success">
                         </div>
                     </div>
                 </div>
@@ -264,7 +264,7 @@
             <div class="container py-5">
                 <h2 class="display-5 mb-4">Bind Your Revenue to Modern Tech</h2>
                 <p class="text-muted lead mb-5 mx-auto" style="max-width: 600px;">Unlock a more efficient way to collect fees and manage institutional finance with the PayMe ecosystem.</p>
-                <a href="?page=quation" class="btn-payme"><i class="fa-solid fa-bolt me-2"></i> Experience PayMe Demo</a>
+                <a href="/quation" class="btn-payme"><i class="fa-solid fa-bolt me-2"></i> Experience PayMe Demo</a>
             </div>
         </section>
 

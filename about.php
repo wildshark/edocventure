@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" href="/assets/img/EDCO.png" type="image/png">
+    <link rel="icon" href="/assets/img/EDOC.webp" type="image/webp">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>About Us | Edco Ventures - Global IT Intelligence</title>
-    <meta name="description" content="Edco Ventures binds together business and technology to deliver world-class infrastructure across multiple continents.">
+    <title>About Us | Edoc Ventures - Global IT Intelligence</title>
+    <meta name="description" content="Edoc Ventures binds together business and technology to deliver world-class infrastructure across multiple continents.">
 
     <!-- CDN: Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,21 +22,21 @@
 
     <style>
         :root {
-            --edco-primary: #4f46e5; 
-            --edco-dark: #0f172a;    
-            --edco-topbar: #1e293b;
-            --edco-footer: #020617;
-            --edco-light: #f8fafc;
+            --edoc-primary: #4f46e5; 
+            --edoc-dark: #0f172a;    
+            --edoc-topbar: #1e293b;
+            --edoc-footer: #020617;
+            --edoc-light: #f8fafc;
         }
 
         body { font-family: 'Inter', sans-serif; color: #475569; overflow-x: hidden; line-height: 1.7; }
-        h1, h2, h3, h4, .display-4, .display-5 { font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--edco-dark); letter-spacing: -0.02em; }
+        h1, h2, h3, h4, .display-4, .display-5 { font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--edoc-dark); letter-spacing: -0.02em; }
 
         /* --- TOP MENU & NAV - loaded from topmenu.php --- */
 
         /* --- PAGE HEADER --- */
         .page-header { 
-            background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.85)), url('assets/img/about-hero-background.png');
+            background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.85)), url('/assets/img/about-hero-background.webp');
             background-size: cover;
             background-position: center;
             padding: 100px 0;
@@ -58,13 +58,13 @@
             transition: 0.3s;
         }
         .value-card:hover { 
-            border-color: var(--edco-primary); 
+            border-color: var(--edoc-primary); 
             box-shadow: 0 20px 40px rgba(0,0,0,0.05);
             transform: translateY(-5px);
         }
         .value-icon { 
             width: 50px; height: 50px; 
-            background: #eef2ff; color: var(--edco-primary); 
+            background: #eef2ff; color: var(--edoc-primary); 
             border-radius: 12px; display: flex; 
             align-items: center; justify-content: center; 
             font-size: 1.4rem; margin-bottom: 20px; 
@@ -75,10 +75,10 @@
         .team-card:hover { box-shadow: 0 30px 60px rgba(0,0,0,0.08); }
         .team-img { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 25px; border: 5px solid #f8fafc; }
         .team-social a { color: #cbd5e1; margin: 0 10px; font-size: 1.1rem; transition: 0.3s; }
-        .team-social a:hover { color: var(--edco-primary); }
+        .team-social a:hover { color: var(--edoc-primary); }
 
         /* --- FOOTER (Consistent with Home) --- */
-        .footer-main { background: var(--edco-footer); color: #94a3b8; padding: 100px 0 30px 0; }
+        .footer-main { background: var(--edoc-footer); color: #94a3b8; padding: 100px 0 30px 0; }
         .footer-heading { color: #fff; font-size: 1.1rem; font-weight: 700; margin-bottom: 25px; }
         /* === DARK MODE OVERRIDES === */
         body[data-theme="dark"] { background-color: #0b0f19 !important; }
@@ -122,20 +122,20 @@
                 <div class="row align-items-center g-5">
                     <div class="col-lg-6" data-aos="fade-right">
                         <div class="about-image-stack">
-                            <img src="assets/img/about-corporate-strategy.png" class="img-fluid" alt="Edco Strategy">
+                            <img src="/assets/img/about-corporate-strategy.webp" class="img-fluid" alt="Edoc Strategy">
                         </div>
                     </div>
                     <div class="col-lg-6" data-aos="fade-left">
                         <h2 class="display-5 mb-4">A Full-Service Global Solution Provider.</h2>
                         <p class="mb-4">
-                            Edco Ventures supports remote sites across multiple continents. We place our focus on leveraging our infrastructure and footprint to support a broad spectrum of organizations with rapid deployment and emerging technologies.
+                            Edoc Ventures supports remote sites across multiple continents. We place our focus on leveraging our infrastructure and footprint to support a broad spectrum of organizations with rapid deployment and emerging technologies.
                         </p>
                         <p class="mb-4">
-                            Over the years, Edco Ventures has evolved into an advanced solutions provider, focused on servicing customers and creating value through long-term relationships. We have established unique service level agreements and fixed costs based on our customers’ needs and budget.
+                            Over the years, Edoc Ventures has evolved into an advanced solutions provider, focused on servicing customers and creating value through long-term relationships. We have established unique service level agreements and fixed costs based on our customers’ needs and budget.
                         </p>
                         <div class="quote-box p-4 rounded-4">
                             <p class="fst-italic mb-0">
-                                "The most powerful connection that a business can make is through all its stakeholders. Edco Ventures binds together business and technology."
+                                "The most powerful connection that a business can make is through all its stakeholders. Edoc Ventures binds together business and technology."
                             </p>
                         </div>
                     </div>
@@ -202,7 +202,7 @@
         <section class="py-120 bg-white">
             <div class="container">
                 <div class="text-center mb-5" data-aos="fade-up">
-                    <h6 class="text-primary fw-bold text-uppercase">The Minds Behind Edco</h6>
+                    <h6 class="text-primary fw-bold text-uppercase">The Minds Behind Edoc</h6>
                     <h2 class="display-5">Our Leadership Team</h2>
                 </div>
 
@@ -216,7 +216,7 @@
                             <p class="small text-muted px-3 mb-4">Focusing on binding business and technology across global footprints.</p>
                             <div class="team-social">
                                 <a href="https://www.linkedin.com/in/nesta-adjetey-osekre" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
-                                <a href="https://x.com/EdcoVentures" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="https://x.com/EdocVentures" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
                             </div>
                         </div>
                     </div>
@@ -239,10 +239,10 @@
                             <img src="assets/img/CA Beata Lamisi Akusung.JPG" class="team-img" alt="Senior Accountant">
                             <h5 class="fw-bold mb-1">Beata Lamisi Akusung</h5>
                             <p class="text-primary small fw-bold mb-3">Senior Accountant</p>
-                            <p class="small text-muted px-3 mb-4">Driving financial excellence through meticulous accounting, budgeting and strategic cost management for clients across the business ecosystem.</p>
+                            <p class="small text-muted px-3 mb-4">Driving financial excellence and cost management across the business ecosystem.</p>
                             <div class="team-social">
                                 <a href="https://www.linkedin.com/in/beata-lamisi-akusung" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
-                                <a href="https://x.com/EdcoVentures" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="https://x.com/EdocVentures" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
                             </div>
                         </div>
                     </div>

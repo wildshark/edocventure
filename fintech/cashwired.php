@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" href="/assets/img/EDCO.png" type="image/png">
+    <link rel="icon" href="/assets/img/EDOC.webp" type="image/webp">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>CashWired | Edco Ventures - Digital Micro-Banking & Susu Engine</title>
+    <title>CashWired | Edoc Ventures - Digital Micro-Banking & Susu Engine</title>
     <meta name="description" content="CashWired: The ultimate digital banking engine for micro-banking, Susu savings, and community fund management.">
 
     <!-- CDN: Google Fonts -->
@@ -22,20 +22,20 @@
 
     <style>
         :root {
-            --edco-primary: #4f46e5; 
-            --edco-dark: #0f172a;    
-            --edco-topbar: #1e293b;
-            --edco-footer: #020617;
+            --edoc-primary: #4f46e5; 
+            --edoc-dark: #0f172a;    
+            --edoc-topbar: #1e293b;
+            --edoc-footer: #020617;
             --cash-accent: #10b981; /* Emerald Green for Wealth/Banking */
             --cash-soft: #ecfdf5;
         }
 
         body { font-family: 'Inter', sans-serif; color: #475569; overflow-x: hidden; line-height: 1.7; }
-        h1, h2, h3, h4, .display-4, .display-5 { font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--edco-dark); letter-spacing: -0.02em; }
+        h1, h2, h3, h4, .display-4, .display-5 { font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--edoc-dark); letter-spacing: -0.02em; }
 
         /* --- NAVIGATION --- */
         .navbar { background: #fff; border-bottom: 1px solid rgba(0,0,0,0.05); padding: 15px 0; }
-        .nav-link { font-weight: 600; color: var(--edco-dark) !important; padding: 10px 18px !important; }
+        .nav-link { font-weight: 600; color: var(--edoc-dark) !important; padding: 10px 18px !important; }
 
         /* --- PRODUCT HERO --- */
         .product-hero { 
@@ -68,7 +68,7 @@
 
         /* --- COMMUNITY SECTION --- */
         .community-box {
-            background: var(--edco-dark);
+            background: var(--edoc-dark);
             color: white;
             border-radius: 30px;
             padding: 80px 60px;
@@ -84,10 +84,10 @@
             transition: 0.3s; box-shadow: 0 10px 20px rgba(16, 185, 129, 0.3);
             text-decoration: none; display: inline-block;
         }
-        .btn-cash:hover { background: var(--edco-dark); color: white; transform: translateY(-3px); }
+        .btn-cash:hover { background: var(--edoc-dark); color: white; transform: translateY(-3px); }
 
         .app-mockup {
-            border: 12px solid var(--edco-dark);
+            border: 12px solid var(--edoc-dark);
             border-radius: 40px;
             box-shadow: 0 40px 80px rgba(0,0,0,0.15);
             max-width: 320px;
@@ -131,15 +131,15 @@
                             CashWired is an advanced digital banking engine designed to digitize Susu savings, community contributions, and micro-banking. We empower cooperatives and small-scale banks with the infrastructure to manage funds with total transparency and security.
                         </p>
                         <div class="d-flex flex-column flex-sm-row gap-3">
-                            <a href="?page=quation" class="btn-cash"><i class="fa-solid fa-play-circle me-2"></i> Launch Live Demo</a>
-                            <a href="?page=quation" class="btn btn-outline-dark px-4 py-3 border-2 fw-bold rounded-3">Solution Blueprint</a>
+                            <a href="/quation" class="btn-cash"><i class="fa-solid fa-play-circle me-2"></i> Launch Live Demo</a>
+                            <a href="/quation" class="btn btn-outline-dark px-4 py-3 border-2 fw-bold rounded-3">Solution Blueprint</a>
                         </div>
                         <div class="mt-4 small text-muted">
                             <i class="fa-solid fa-vault me-2 text-success"></i> High-Security Vaulting & Real-Time Ledger Sync
                         </div>
                     </div>
                     <div class="col-lg-5 text-center" data-aos="zoom-in">
-                        <img src="assets/img/cashwired-mobile-ghana.png" class="img-fluid app-mockup" alt="CashWired Mobile Interface">
+                        <img src="/assets/img/cashwired-mobile-ghana.webp" class="img-fluid app-mockup" alt="CashWired Mobile Interface">
                     </div>
                 </div>
             </div>
@@ -212,7 +212,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-7">
                             <h2 class="text-white display-5 mb-4">Empowering Social <br>Success Through IT.</h2>
-                            <p class="lead text-white-50 mb-5">By leveraging the Edco footprint, CashWired provides a practical banking solution that minimizes the risk of fund mismanagement and security threats.</p>
+                            <p class="lead text-white-50 mb-5">By leveraging the Edoc footprint, CashWired provides a practical banking solution that minimizes the risk of fund mismanagement and security threats.</p>
                             
                             <div class="row g-4 mb-5">
                                 <div class="col-sm-6">
@@ -225,10 +225,10 @@
                                 </div>
                             </div>
 
-                            <a href="?page=quation" class="btn btn-success btn-lg px-4 py-3 fw-bold">Digitize Your Community Fund</a>
+                            <a href="/quation" class="btn btn-success btn-lg px-4 py-3 fw-bold">Digitize Your Community Fund</a>
                         </div>
                         <div class="col-lg-5 d-none d-lg-block text-center">
-                            <img src="assets/img/ghana-merchant-success.png" class="img-fluid rounded-4 shadow-lg" alt="Digital Growth">
+                            <img src="/assets/img/ghana-merchant-success.webp" class="img-fluid rounded-4 shadow-lg" alt="Digital Growth">
                         </div>
                     </div>
                 </div>
@@ -240,7 +240,7 @@
             <div class="container py-5">
                 <h2 class="display-5 mb-4">Modernize Your Banking Operations</h2>
                 <p class="text-muted lead mb-5 mx-auto" style="max-width: 600px;">Bind your financial community to the most advanced micro-banking technology available. Secure, transparent, and scalable.</p>
-                <a href="?page=quation" class="btn-cash"><i class="fa-solid fa-bolt me-2"></i> Launch CashWired Demo</a>
+                <a href="/quation" class="btn-cash"><i class="fa-solid fa-bolt me-2"></i> Launch CashWired Demo</a>
             </div>
         </section>
 

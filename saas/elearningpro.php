@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" href="/assets/img/EDCO.png" type="image/png">
+    <link rel="icon" href="/assets/img/EDOC.webp" type="image/webp">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>eLearning Pro | Edco Ventures - Future-Ready School Management</title>
+    <title>eLearning Pro | Edoc Ventures - Future-Ready School Management</title>
     <meta name="description" content="eLearning Pro: The most comprehensive School Management & Learning Ecosystem for modern institutions.">
 
     <!-- CDN: Google Fonts -->
@@ -22,20 +22,20 @@
 
     <style>
         :root {
-            --edco-primary: #4f46e5; 
-            --edco-dark: #0f172a;    
-            --edco-topbar: #1e293b;
-            --edco-footer: #020617;
-            --edco-light: #f8fafc;
+            --edoc-primary: #4f46e5; 
+            --edoc-dark: #0f172a;    
+            --edoc-topbar: #1e293b;
+            --edoc-footer: #020617;
+            --edoc-light: #f8fafc;
             --learning-accent: #6366f1;
         }
 
         body { font-family: 'Inter', sans-serif; color: #475569; overflow-x: hidden; line-height: 1.7; }
-        h1, h2, h3, h4, .display-4, .display-5 { font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--edco-dark); letter-spacing: -0.02em; }
+        h1, h2, h3, h4, .display-4, .display-5 { font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--edoc-dark); letter-spacing: -0.02em; }
 
         /* --- NAVIGATION --- */
         .navbar { background: #fff; border-bottom: 1px solid rgba(0,0,0,0.05); padding: 15px 0; }
-        .nav-link { font-weight: 600; color: var(--edco-dark) !important; padding: 10px 18px !important; }
+        .nav-link { font-weight: 600; color: var(--edoc-dark) !important; padding: 10px 18px !important; }
 
         /* --- PRODUCT HERO --- */
         .product-hero { 
@@ -44,7 +44,7 @@
             overflow: hidden;
         }
         .hero-badge { 
-            background: #e0e7ff; color: var(--edco-primary); 
+            background: #e0e7ff; color: var(--edoc-primary); 
             padding: 8px 20px; border-radius: 50px; 
             font-weight: 700; font-size: 0.85rem; text-transform: uppercase; 
             display: inline-block; margin-bottom: 20px;
@@ -59,10 +59,10 @@
             transition: 0.3s;
             height: 100%;
         }
-        .feature-card:hover { transform: translateY(-10px); border-color: var(--edco-primary); box-shadow: 0 20px 40px rgba(0,0,0,0.05); }
+        .feature-card:hover { transform: translateY(-10px); border-color: var(--edoc-primary); box-shadow: 0 20px 40px rgba(0,0,0,0.05); }
         .feature-icon { 
             width: 50px; height: 50px; background: #f1f5f9; 
-            color: var(--edco-primary); border-radius: 12px; 
+            color: var(--edoc-primary); border-radius: 12px; 
             display: flex; align-items: center; justify-content: center; 
             font-size: 1.5rem; margin-bottom: 25px; 
         }
@@ -73,18 +73,18 @@
 
         /* --- CTA BUTTONS --- */
         .btn-demo-live { 
-            background: var(--edco-primary); color: white; border: none; 
+            background: var(--edoc-primary); color: white; border: none; 
             padding: 16px 35px; border-radius: 12px; font-weight: 700; 
             transition: 0.3s; box-shadow: 0 10px 20px rgba(79, 70, 229, 0.3);
             text-decoration: none; display: inline-block;
         }
-        .btn-demo-live:hover { background: var(--edco-dark); color: white; transform: translateY(-3px); }
+        .btn-demo-live:hover { background: var(--edoc-dark); color: white; transform: translateY(-3px); }
 
         /* --- DASHBOARD MOCKUP --- */
         .mockup-container { position: relative; z-index: 1; }
         .mockup-container::before {
             content: ''; position: absolute; top: 10%; left: 10%; width: 100%; height: 100%;
-            background: var(--edco-primary); opacity: 0.05; border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+            background: var(--edoc-primary); opacity: 0.05; border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
             z-index: -1; filter: blur(50px);
         }
         /* === DARK MODE OVERRIDES === */
@@ -123,8 +123,8 @@
                             eLearning Pro is a full-service school management ecosystem. We enable educational institutions to focus on learning by providing a practical IT solution that creates an environment for academic success.
                         </p>
                         <div class="d-flex flex-column flex-sm-row gap-3">
-                            <a href="?page=quation" class="btn-demo-live"><i class="fa-solid fa-play-circle me-2"></i> Launch Live Demo</a>
-                            <a href="?page=quation" class="btn btn-outline-dark px-4 py-3 border-2 fw-bold rounded-3">Download Brochure</a>
+                            <a href="/quation" class="btn-demo-live"><i class="fa-solid fa-play-circle me-2"></i> Launch Live Demo</a>
+                            <a href="/quation" class="btn btn-outline-dark px-4 py-3 border-2 fw-bold rounded-3">Download Brochure</a>
                         </div>
                         <div class="mt-4 small text-muted">
                             <i class="fa-solid fa-shield-halved me-2"></i> ISO 27001 Certified & GDPR Compliant
@@ -133,7 +133,7 @@
                     <div class="col-lg-6" data-aos="zoom-in">
                         <div class="mockup-container text-center">
                             <!-- Placeholder: Replace with a dashboard UI screenshot -->
-                            <img src="assets/img/elearning-dashboard-ghana.png" class="img-fluid rounded-4 shadow-lg border" alt="eLearning Pro Dashboard">
+                            <img src="/assets/img/elearning-dashboard-ghana.webp" class="img-fluid rounded-4 shadow-lg border" alt="eLearning Pro Dashboard">
                         </div>
                     </div>
                 </div>
@@ -207,7 +207,7 @@
                         <div class="feature-card">
                             <div class="feature-icon"><i class="fa-solid fa-lock"></i></div>
                             <h5>Enterprise Redundancy</h5>
-                            <p class="small text-muted mb-0">Powered by Edco Cloud Nodes. Minimize data loss risk with automated backups and 99.9% virtualization uptime.</p>
+                            <p class="small text-muted mb-0">Powered by Edoc Cloud Nodes. Minimize data loss risk with automated backups and 99.9% virtualization uptime.</p>
                         </div>
                     </div>
                 </div>
@@ -219,7 +219,7 @@
             <div class="container">
                 <div class="row align-items-center g-5">
                     <div class="col-lg-6" data-aos="fade-right">
-                        <img src="assets/img/elearning-institutional-success.png" class="img-fluid rounded-4 shadow-lg" alt="Institutional Success">
+                        <img src="/assets/img/elearning-institutional-success.webp" class="img-fluid rounded-4 shadow-lg" alt="Institutional Success">
                     </div>
                     <div class="col-lg-6" data-aos="fade-left">
                         <h2 class="display-5 mb-4">Empowering Your Institution</h2>
@@ -254,10 +254,10 @@
         <!-- FINAL CTA -->
         <section class="py-5">
             <div class="container">
-                <div class="p-5 rounded-5 text-center text-white" style="background: var(--edco-dark);">
+                <div class="p-5 rounded-5 text-center text-white" style="background: var(--edoc-dark);">
                     <h2 class="text-white display-5 mb-4">Experience eLearning Pro Today</h2>
-                    <p class="text-white-50 lead mb-5 mx-auto" style="max-width: 600px;">Join hundreds of institutions worldwide leveraging Edco technology to redefine education.</p>
-                    <a href="?page=quation" class="btn-demo-live"><i class="fa-solid fa-rocket me-2"></i> Launch Live Environment</a>
+                    <p class="text-white-50 lead mb-5 mx-auto" style="max-width: 600px;">Join hundreds of institutions worldwide leveraging Edoc technology to redefine education.</p>
+                    <a href="/quation" class="btn-demo-live"><i class="fa-solid fa-rocket me-2"></i> Launch Live Environment</a>
                 </div>
             </div>
         </section>

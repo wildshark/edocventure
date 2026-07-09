@@ -1,8 +1,8 @@
 <?php
     // Check if the router is loading this file via include
     // If someone accesses it directly, redirect to index
-    if (!defined('EDCO_LOADED') && basename($_SERVER['PHP_SELF']) === 'contact.php') {
-        header('Location: index.php?page=contact');
+    if (!defined('EDOC_LOADED') && basename($_SERVER['PHP_SELF']) === 'contact.php') {
+        header('Location: /contact');
         exit;
     }
 ?>
@@ -10,13 +10,13 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" href="/assets/img/EDCO.png" type="image/png">
+    <link rel="icon" href="/assets/img/EDOC.webp" type="image/webp">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Contact Us | Edco Ventures - Get in Touch</title>
-    <meta name="description" content="Contact Edco Ventures for enterprise IT solutions, cloud infrastructure, fintech development, and global support.">
+    <title>Contact Us | Edoc Ventures - Get in Touch</title>
+    <meta name="description" content="Contact Edoc Ventures for enterprise IT solutions, cloud infrastructure, fintech development, and global support.">
 
     <!-- CDN: Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,15 +30,15 @@
 
     <style>
         :root {
-            --edco-primary: #4f46e5;
-            --edco-dark: #0f172a;
-            --edco-topbar: #1e293b;
-            --edco-footer: #020617;
-            --edco-light: #f8fafc;
+            --edoc-primary: #4f46e5;
+            --edoc-dark: #0f172a;
+            --edoc-topbar: #1e293b;
+            --edoc-footer: #020617;
+            --edoc-light: #f8fafc;
         }
 
-        body { font-family: 'Inter', sans-serif; color: #475569; background-color: var(--edco-light); line-height: 1.7; }
-        h1, h2, h3, h4, .display-5 { font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--edco-dark); letter-spacing: -0.02em; }
+        body { font-family: 'Inter', sans-serif; color: #475569; background-color: var(--edoc-light); line-height: 1.7; }
+        h1, h2, h3, h4, .display-5 { font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--edoc-dark); letter-spacing: -0.02em; }
 
         /* --- TOP MENU & NAV - loaded from topmenu.php --- */
 
@@ -60,7 +60,7 @@
             padding: 50px;
         }
 
-        .form-label { font-weight: 700; color: var(--edco-dark); font-size: 0.9rem; margin-bottom: 10px; }
+        .form-label { font-weight: 700; color: var(--edoc-dark); font-size: 0.9rem; margin-bottom: 10px; }
         .form-control, .form-select {
             padding: 14px 20px;
             border-radius: 12px;
@@ -69,13 +69,13 @@
             transition: 0.3s;
         }
         .form-control:focus {
-            border-color: var(--edco-primary);
+            border-color: var(--edoc-primary);
             box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.1);
             background-color: #fff;
         }
 
         /* --- CONTACT INFO BOX --- */
-        .info-box { background: var(--edco-primary); color: white; border-radius: 20px; padding: 40px; margin-bottom: 30px; }
+        .info-box { background: var(--edoc-primary); color: white; border-radius: 20px; padding: 40px; margin-bottom: 30px; }
         .info-item { display: flex; align-items: start; margin-bottom: 25px; }
         .info-icon { width: 40px; height: 40px; background: rgba(255,255,255,0.2); border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-right: 20px; flex-shrink: 0; }
         /* === DARK MODE OVERRIDES === */
@@ -150,7 +150,7 @@
                                         <textarea class="form-control" rows="6" placeholder="How can we help you?"></textarea>
                                     </div>
                                 </div>
-                                <button type="submit" class="btn btn-primary btn-lg w-100 py-3 fw-bold" style="background: var(--edco-primary); border: none; border-radius: 12px;">
+                                <button type="submit" class="btn btn-primary btn-lg w-100 py-3 fw-bold" style="background: var(--edoc-primary); border: none; border-radius: 12px;">
                                     Send Message <i class="fa-solid fa-paper-plane ms-2"></i>
                                 </button>
                             </form>
@@ -165,7 +165,7 @@
                                 <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
                                 <div>
                                     <h6 class="mb-1 text-white">Email</h6>
-                                    <p class="small text-white-50 mb-0">solutions@edcoventures.com</p>
+                                    <p class="small text-white-50 mb-0">solutions@edocventures.com</p>
                                 </div>
                             </div>
                             <div class="info-item">
@@ -187,7 +187,7 @@
                         <div class="bg-white p-4 rounded-4 border">
                             <h5 class="mb-3">Need a Quote?</h5>
                             <p class="small text-muted mb-4">For a detailed project quote, use our Request for Quotation form.</p>
-                            <a href="?page=quation" class="btn btn-primary w-100 fw-bold" style="background: var(--edco-primary); border: none; border-radius: 10px;">
+                            <a href="/quation" class="btn btn-primary w-100 fw-bold" style="background: var(--edoc-primary); border: none; border-radius: 10px;">
                                 Request a Quote <i class="fa-solid fa-arrow-right ms-2"></i>
                             </a>
                         </div>

@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" href="/assets/img/EDCO.png" type="image/png">
+    <link rel="icon" href="/assets/img/EDOC.webp" type="image/webp">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>Virtual Nodes | Edco Ventures - Secure Cloud Hosting & App Infrastructure</title>
+    <title>Virtual Nodes | Edoc Ventures - Secure Cloud Hosting & App Infrastructure</title>
     <meta name="description" content="Virtual Nodes: High-performance, secure cloud hosting engineered for mission-critical applications and global scale.">
 
     <!-- CDN: Google Fonts -->
@@ -22,8 +22,8 @@
 
     <style>
         :root {
-            --edco-primary: #4f46e5; 
-            --edco-dark: #0f172a;    
+            --edoc-primary: #4f46e5; 
+            --edoc-dark: #0f172a;    
             --node-accent: #06b6d4; /* Electric Cyan for Cloud/Cyber */
             --node-dark-bg: #020617;
         }
@@ -133,16 +133,16 @@
                     <span class="hero-badge"><i class="fa-solid fa-microchip me-2"></i> Infrastructure as a Service</span>
                     <h1 class="display-3 mb-4">Cloud Nodes that <br><span class="text-info">Defy Complexity.</span></h1>
                     <p class="lead mb-5 text-white-50 mx-auto" style="max-width: 800px;">
-                        Host your mission-critical applications on the most resilient cloud infrastructure in the market. Edco Virtual Nodes provide the secure, scalable backbone required for the modern dynamic business.
+                        Host your mission-critical applications on the most resilient cloud infrastructure in the market. Edoc Virtual Nodes provide the secure, scalable backbone required for the modern dynamic business.
                     </p>
                     <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center">
-                        <a href="?page=quation" class="btn-node"><i class="fa-solid fa-server me-2"></i> Provision a Node</a>
-                        <a href="?page=quation" class="btn btn-outline-light px-4 py-3 border-2 fw-bold rounded-3">Infrastructure SLA</a>
+                        <a href="/quation" class="btn-node"><i class="fa-solid fa-server me-2"></i> Provision a Node</a>
+                        <a href="/quation" class="btn btn-outline-light px-4 py-3 border-2 fw-bold rounded-3">Infrastructure SLA</a>
                     </div>
                 </div>
                 <div class="mt-5 pt-5" data-aos="zoom-in">
                     <!-- Tech visual: Server Mesh -->
-                    <img src="assets/img/virtualhode-datacenter.png" class="img-fluid rounded-4 shadow-lg border border-secondary border-opacity-25" alt="Data Center Architecture">
+                    <img src="/assets/img/virtualhode-datacenter.webp" class="img-fluid rounded-4 shadow-lg border border-secondary border-opacity-25" alt="Data Center Architecture">
                 </div>
             </div>
         </section>
@@ -184,7 +184,7 @@
                         <div class="col-lg-6">
                             <h2 class="display-5 mb-4">Host Your Entire App Ecosystem.</h2>
                             <p class="lead text-white-50 mb-5">
-                                Virtual Nodes are the native home for the Edco product suite. We provide specialized optimizations for:
+                                Virtual Nodes are the native home for the Edoc product suite. We provide specialized optimizations for:
                             </p>
                             <div class="row g-4">
                                 <div class="col-sm-6">
@@ -214,7 +214,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 text-center">
-                            <img src="assets/img/cloud-global-network.png" class="img-fluid rounded-4 shadow-lg" alt="Global Cloud">
+                            <img src="/assets/img/cloud-global-network.webp" class="img-fluid rounded-4 shadow-lg" alt="Global Cloud">
                         </div>
                     </div>
                 </div>
@@ -227,7 +227,7 @@
                 <div class="row align-items-center g-5">
                     <div class="col-lg-6" data-aos="fade-right">
                         <h2 class="display-5 mb-4">Infrastructure that Binds Business to Tech.</h2>
-                        <p class="mb-4">Edco Ventures binds together business and technology by creating a virtualization environment that eliminates the risk of data loss and downtime.</p>
+                        <p class="mb-4">Edoc Ventures binds together business and technology by creating a virtualization environment that eliminates the risk of data loss and downtime.</p>
                         <div class="d-flex align-items-start mb-4">
                             <i class="fa-solid fa-circle-check text-info me-3 mt-1"></i>
                             <div>
@@ -275,7 +275,7 @@
             <div class="container py-5">
                 <h2 class="display-5 mb-4">Provision Your Future Infrastructure</h2>
                 <p class="text-white-50 lead mb-5 mx-auto" style="max-width: 600px;">Stop worrying about hardware. Start leveraging the most powerful connection a business can make with Virtual Nodes.</p>
-                <a href="?page=quation" class="btn-node px-5 py-3"><i class="fa-solid fa-bolt me-2"></i> Launch Cloud Node Now</a>
+                <a href="/quation" class="btn-node px-5 py-3"><i class="fa-solid fa-bolt me-2"></i> Launch Cloud Node Now</a>
             </div>
         </section>
 

@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" href="/assets/img/EDCO.png" type="image/png">
+    <link rel="icon" href="/assets/img/EDOC.webp" type="image/webp">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>Services | Edco Ventures - Enterprise IT & Infrastructure</title>
+    <title>Services | Edoc Ventures - Enterprise IT & Infrastructure</title>
     <meta name="description" content="Explore our core services: IT Consulting, Server Management, Software Development, and Cloud Infrastructure.">
 
     <!-- CDN: Google Fonts -->
@@ -22,15 +22,15 @@
 
     <style>
         :root {
-            --edco-primary: #4f46e5; 
-            --edco-dark: #0f172a;    
-            --edco-topbar: #1e293b;
-            --edco-footer: #020617;
-            --edco-light: #f8fafc;
+            --edoc-primary: #4f46e5; 
+            --edoc-dark: #0f172a;    
+            --edoc-topbar: #1e293b;
+            --edoc-footer: #020617;
+            --edoc-light: #f8fafc;
         }
 
         body { font-family: 'Inter', sans-serif; color: #475569; overflow-x: hidden; line-height: 1.7; }
-        h1, h2, h3, h4, .display-4, .display-5 { font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--edco-dark); letter-spacing: -0.02em; }
+        h1, h2, h3, h4, .display-4, .display-5 { font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--edoc-dark); letter-spacing: -0.02em; }
 
         /* --- TOP MENU & NAV - loaded from topmenu.php --- */
 
@@ -44,11 +44,11 @@
 
         /* --- SERVICE SECTION BLOCKS --- */
         .service-block { padding: 100px 0; }
-        .service-block:nth-child(even) { background-color: var(--edco-light); }
+        .service-block:nth-child(even) { background-color: var(--edoc-light); }
         
         .service-icon-lg { 
             width: 70px; height: 70px; 
-            background: var(--edco-primary); 
+            background: var(--edoc-primary); 
             color: white; 
             border-radius: 18px; 
             display: flex; 
@@ -61,7 +61,7 @@
 
         .capability-list { list-style: none; padding: 0; }
         .capability-list li { margin-bottom: 15px; display: flex; align-items: start; }
-        .capability-list i { color: var(--edco-primary); margin-top: 5px; margin-right: 15px; }
+        .capability-list i { color: var(--edoc-primary); margin-top: 5px; margin-right: 15px; }
 
         /* --- PERFORMANCE CARDS --- */
         .stat-card {
@@ -73,11 +73,11 @@
             transition: 0.3s;
         }
         .stat-card:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(0,0,0,0.05); }
-        .stat-card h2 { color: var(--edco-primary); font-size: 3rem; margin-bottom: 10px; }
+        .stat-card h2 { color: var(--edoc-primary); font-size: 3rem; margin-bottom: 10px; }
 
         /* --- CTA SECTION --- */
         .cta-box { 
-            background: var(--edco-primary); 
+            background: var(--edoc-primary); 
             color: white; 
             border-radius: 30px; 
             padding: 60px; 
@@ -107,7 +107,7 @@
                 <span class="badge-premium"><i class="fa-solid fa-chess-knight me-1"></i> Venture Studio Solutions</span>
                 <h1 class="display-4 text-white">Full-Service IT Infrastructure</h1>
                 <p class="lead text-white-50 mx-auto mt-4" style="max-width: 800px;">
-                    From complex consulting to rapid software deployment, Edco Ventures provides the tools and intelligence needed to scale your digital operations across continents.
+                    From complex consulting to rapid software deployment, Edoc Ventures provides the tools and intelligence needed to scale your digital operations across continents.
                 </p>
             </div>
         </section>
@@ -127,7 +127,7 @@
                         </ul>
                     </div>
                     <div class="col-lg-6" data-aos="fade-left">
-                        <img src="assets/img/services-consulting.png" class="img-fluid rounded-4 shadow-lg" alt="IT Consulting">
+                        <img src="/assets/img/services-consulting.webp" class="img-fluid rounded-4 shadow-lg" alt="IT Consulting">
                     </div>
                 </div>
             </div>
@@ -138,12 +138,12 @@
             <div class="container">
                 <div class="row align-items-center g-5 flex-column-reverse flex-lg-row">
                     <div class="col-lg-6" data-aos="fade-right">
-                        <img src="assets/img/cloud-server-datacenter.png" class="img-fluid rounded-4 shadow-lg" alt="Server Infrastructure">
+                        <img src="/assets/img/cloud-server-datacenter.webp" class="img-fluid rounded-4 shadow-lg" alt="Server Infrastructure">
                     </div>
                     <div class="col-lg-6" data-aos="fade-left">
                         <div class="service-icon-lg"><i class="fa-solid fa-server"></i></div>
                         <h2 class="display-5 mb-4">Server & Managed Hardware</h2>
-                        <p class="mb-4">Edco Ventures provides robust server solutions that minimize the risk of data loss and maximize uptime. We support remote sites across continents with unique Service Level Agreements (SLAs).</p>
+                        <p class="mb-4">Edoc Ventures provides robust server solutions that minimize the risk of data loss and maximize uptime. We support remote sites across continents with unique Service Level Agreements (SLAs).</p>
                         <ul class="capability-list">
                             <li><i class="fa-solid fa-circle-check"></i> <div><strong>Hardware Deployment:</strong> On-site and remote server installation.</div></li>
                             <li><i class="fa-solid fa-circle-check"></i> <div><strong>24/7 Monitoring:</strong> Proactive identification of hardware issues.</div></li>
@@ -169,7 +169,7 @@
                         </ul>
                     </div>
                     <div class="col-lg-6" data-aos="fade-left">
-                        <img src="assets/img/ghana-software-developer.png" class="img-fluid rounded-4 shadow-lg" alt="Software Development">
+                        <img src="/assets/img/ghana-software-developer.webp" class="img-fluid rounded-4 shadow-lg" alt="Software Development">
                     </div>
                 </div>
             </div>
@@ -180,7 +180,7 @@
             <div class="container">
                 <div class="row align-items-center g-5 flex-column-reverse flex-lg-row">
                     <div class="col-lg-6" data-aos="fade-right">
-                        <img src="assets/img/services-cloud-infrastructure.png" class="img-fluid rounded-4 shadow-lg" alt="Cloud Infrastructure">
+                        <img src="/assets/img/services-cloud-infrastructure.webp" class="img-fluid rounded-4 shadow-lg" alt="Cloud Infrastructure">
                     </div>
                     <div class="col-lg-6" data-aos="fade-left">
                         <div class="service-icon-lg"><i class="fa-solid fa-cloud-arrow-up"></i></div>
@@ -233,8 +233,8 @@
             <div class="container">
                 <div class="cta-box">
                     <h2 class="text-white display-5 mb-4">Ready to Architect Your Success?</h2>
-                    <p class="text-white-50 lead mb-5 mx-auto" style="max-width: 600px;">Join the organizations that trust Edco Ventures to bind their business goals with world-class technology.</p>
-                    <a href="?page=quation" class="btn btn-light btn-lg px-5 py-3 fw-bold text-primary">Schedule a Consultation</a>
+                    <p class="text-white-50 lead mb-5 mx-auto" style="max-width: 600px;">Join the organizations that trust Edoc Ventures to bind their business goals with world-class technology.</p>
+                    <a href="/quation" class="btn btn-light btn-lg px-5 py-3 fw-bold text-primary">Schedule a Consultation</a>
                 </div>
             </div>
         </section>

@@ -1,10 +1,10 @@
 <?php
 /**
- * Edco Ventures — SQLite Database Handler
+ * Edoc Ventures — SQLite Database Handler
  * Initialises the database and provides a connection.
  */
 
-$db_path = __DIR__ . '/data/edco.sqlite';
+$db_path = __DIR__ . '/data/edoc.sqlite';
 
 // Ensure the data directory exists
 if (!is_dir(__DIR__ . '/data')) {

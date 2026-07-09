@@ -6,4 +6,4 @@ Allow: /
 Disallow: /data/
 
 # Sitemap Link for Search Engines
-Sitemap: https://www.edcoventures.com/sitemap.xml
+Sitemap: https://www.edocventures.com/sitemap.xml

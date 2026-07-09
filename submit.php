@@ -1,6 +1,6 @@
 <?php
 /**
- * Edco Ventures — Unified Form Submission Handler
+ * Edoc Ventures — Unified Form Submission Handler
  * Handles: rfq | newsletter | academy
  * All responses are JSON.
  */
@@ -87,7 +87,7 @@ switch ($type) {
 
         echo json_encode([
             'success' => true,
-            'message' => "You're in! Welcome to the Edco Ventures network. We'll keep you updated on the latest in tech evolution."
+            'message' => "You're in! Welcome to the Edoc Ventures network. We'll keep you updated on the latest in tech evolution."
         ]);
         break;
 

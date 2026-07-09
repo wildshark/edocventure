@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" href="/assets/img/EDCO.png" type="image/png">
+    <link rel="icon" href="/assets/img/EDOC.webp" type="image/webp">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>Edco Academy | Professional IT Training & Career Development</title>
-    <meta name="description" content="Edco Academy: Hands-on IT training, Data Technology, and Computing skills designed to launch global careers.">
+    <title>Edoc Academy | Professional IT Training & Career Development</title>
+    <meta name="description" content="Edoc Academy: Hands-on IT training, Data Technology, and Computing skills designed to launch global careers.">
 
     <!-- CDN: Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,22 +22,22 @@
 
     <style>
         :root {
-            --edco-primary: #4f46e5; 
-            --edco-dark: #0f172a;    
+            --edoc-primary: #4f46e5; 
+            --edoc-dark: #0f172a;    
             --academy-cyan: #06b6d4;
             --academy-light: #f8fafc;
         }
 
         body { font-family: 'Inter', sans-serif; color: #475569; overflow-x: hidden; line-height: 1.7; }
-        h1, h2, h3, h4, .display-4, .display-5 { font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--edco-dark); letter-spacing: -0.02em; }
+        h1, h2, h3, h4, .display-4, .display-5 { font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--edoc-dark); letter-spacing: -0.02em; }
 
         /* --- NAVIGATION --- */
         .navbar { background: #fff; border-bottom: 1px solid rgba(0,0,0,0.05); padding: 12px 0; }
-        .nav-link { font-weight: 600; color: var(--edco-dark) !important; padding: 10px 15px !important; font-size: 0.9rem; }
-        .btn-portal { border: 2px solid var(--edco-primary); color: var(--edco-primary); font-weight: 700; border-radius: 8px; transition: 0.3s; padding: 8px 20px; text-decoration: none; }
-        .btn-portal:hover { background: var(--edco-primary); color: #fff; }
-        .btn-register { background: var(--edco-primary); color: #fff; font-weight: 700; border-radius: 8px; padding: 10px 25px; text-decoration: none; transition: 0.3s; border: none; }
-        .btn-register:hover { background: var(--edco-dark); color: #fff; transform: translateY(-2px); }
+        .nav-link { font-weight: 600; color: var(--edoc-dark) !important; padding: 10px 15px !important; font-size: 0.9rem; }
+        .btn-portal { border: 2px solid var(--edoc-primary); color: var(--edoc-primary); font-weight: 700; border-radius: 8px; transition: 0.3s; padding: 8px 20px; text-decoration: none; }
+        .btn-portal:hover { background: var(--edoc-primary); color: #fff; }
+        .btn-register { background: var(--edoc-primary); color: #fff; font-weight: 700; border-radius: 8px; padding: 10px 25px; text-decoration: none; transition: 0.3s; border: none; }
+        .btn-register:hover { background: var(--edoc-dark); color: #fff; transform: translateY(-2px); }
 
         /* --- ACADEMY HERO --- */
         .academy-hero { 
@@ -60,10 +60,10 @@
             transition: 0.3s;
             height: 100%;
         }
-        .course-card:hover { transform: translateY(-10px); border-color: var(--edco-primary); box-shadow: 0 20px 40px rgba(0,0,0,0.05); }
+        .course-card:hover { transform: translateY(-10px); border-color: var(--edoc-primary); box-shadow: 0 20px 40px rgba(0,0,0,0.05); }
         .course-icon { 
             width: 60px; height: 60px; background: #eef2ff; 
-            color: var(--edco-primary); border-radius: 15px; 
+            color: var(--edoc-primary); border-radius: 15px; 
             display: flex; align-items: center; justify-content: center; 
             font-size: 1.8rem; margin-bottom: 25px; 
         }
@@ -80,7 +80,7 @@
         .check-list i { color: #10b981; margin-right: 12px; }
 
         /* --- REGISTRATION SECTION --- */
-        .reg-section { background: var(--edco-dark); padding: 100px 0; color: #fff; }
+        .reg-section { background: var(--edoc-dark); padding: 100px 0; color: #fff; }
         .reg-card { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 40px; border-radius: 24px; backdrop-filter: blur(10px); }
         .form-control { background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: #fff; padding: 12px; border-radius: 10px; }
         .form-control:focus { background: rgba(255,255,255,0.15); color: #fff; border-color: var(--academy-cyan); box-shadow: none; }
@@ -119,17 +119,17 @@
                         <h6 class="text-info fw-bold text-uppercase mb-3"><i class="fa-solid fa-graduation-cap me-2"></i> Career Evolution</h6>
                         <h1 class="display-3 text-white mb-4">Architecting the Next Generation of <span class="text-info">IT Leaders.</span></h1>
                         <p class="lead mb-5 text-white-50">
-                            Edco Academy binds professional theory with hands-on technical labs. Master Information Technology, Data Science, and Infrastructure management in an environment built for global success.
+                            Edoc Academy binds professional theory with hands-on technical labs. Master Information Technology, Data Science, and Infrastructure management in an environment built for global success.
                         </p>
                         <div class="d-flex flex-column flex-sm-row gap-3">
                             <a href="#courses" class="btn-register py-3 px-5">Explore Curriculums</a>
-                            <a href="?page=quation" class="btn btn-outline-light px-4 py-3 border-2 fw-bold rounded-3">
+                            <a href="/quation" class="btn btn-outline-light px-4 py-3 border-2 fw-bold rounded-3">
                                 <i class="fa-solid fa-play-circle me-2"></i> Academy Tour
                             </a>
                         </div>
                     </div>
                     <div class="col-lg-5" data-aos="zoom-in">
-                        <img src="assets/img/academy-it-training.png" class="img-fluid rounded-4 shadow-lg" alt="Hands-on IT Training">
+                        <img src="/assets/img/academy-it-training.webp" class="img-fluid rounded-4 shadow-lg" alt="Hands-on IT Training">
                     </div>
                 </div>
             </div>
@@ -181,17 +181,17 @@
                     <div class="row align-items-center g-5">
                         <div class="col-lg-6">
                             <h2 class="display-5 mb-4">Beyond the Textbook. <br><span class="text-primary">Real-World Labs.</span></h2>
-                            <p class="lead mb-4">We provide solutions that enable career growth. Our students have direct access to the Edco Venture Studio infrastructure.</p>
+                            <p class="lead mb-4">We provide solutions that enable career growth. Our students have direct access to the Edoc Venture Studio infrastructure.</p>
                             <ul class="check-list mb-5">
                                 <li><i class="fa-solid fa-circle-check"></i> Practice on Live Virtual Nodes</li>
-                                <li><i class="fa-solid fa-circle-check"></i> Internship at Edco Venture Labs</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Internship at Edoc Venture Labs</li>
                                 <li><i class="fa-solid fa-circle-check"></i> Industry-Standard Certification Preparation</li>
                                 <li><i class="fa-solid fa-circle-check"></i> Global Stakeholder Networking</li>
                             </ul>
                             <a href="#register" class="btn btn-primary btn-lg px-5 py-3 rounded-3 shadow">Join the Next Cohort</a>
                         </div>
                         <div class="col-lg-6">
-                            <img src="assets/img/services-software-dev.png" class="img-fluid rounded-4" alt="Computing Labs">
+                            <img src="/assets/img/services-software-dev.webp" class="img-fluid rounded-4" alt="Computing Labs">
                         </div>
                     </div>
                 </div>

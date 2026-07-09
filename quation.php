@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" href="/assets/img/EDCO.png" type="image/png">
+    <link rel="icon" href="/assets/img/EDOC.webp" type="image/webp">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>Request for Quotation | Edco Ventures - Architect Your Success</title>
-    <meta name="description" content="Get a custom quote for Software Development, Cloud Infrastructure, or IT Consulting from Edco Ventures.">
+    <title>Request for Quotation | Edoc Ventures - Architect Your Success</title>
+    <meta name="description" content="Get a custom quote for Software Development, Cloud Infrastructure, or IT Consulting from Edoc Ventures.">
 
     <!-- CDN: Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,15 +22,15 @@
 
     <style>
         :root {
-            --edco-primary: #4f46e5; 
-            --edco-dark: #0f172a;    
-            --edco-topbar: #1e293b;
-            --edco-footer: #020617;
-            --edco-light: #f8fafc;
+            --edoc-primary: #4f46e5; 
+            --edoc-dark: #0f172a;    
+            --edoc-topbar: #1e293b;
+            --edoc-footer: #020617;
+            --edoc-light: #f8fafc;
         }
 
-        body { font-family: 'Inter', sans-serif; color: #475569; background-color: var(--edco-light); line-height: 1.7; }
-        h1, h2, h3, h4, .display-5 { font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--edco-dark); letter-spacing: -0.02em; }
+        body { font-family: 'Inter', sans-serif; color: #475569; background-color: var(--edoc-light); line-height: 1.7; }
+        h1, h2, h3, h4, .display-5 { font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--edoc-dark); letter-spacing: -0.02em; }
 
         /* --- TOP MENU & NAV - loaded from topmenu.php --- */
 
@@ -52,7 +52,7 @@
             padding: 50px;
         }
 
-        .form-label { font-weight: 700; color: var(--edco-dark); font-size: 0.9rem; margin-bottom: 10px; }
+        .form-label { font-weight: 700; color: var(--edoc-dark); font-size: 0.9rem; margin-bottom: 10px; }
         .form-control, .form-select { 
             padding: 14px 20px; 
             border-radius: 12px; 
@@ -61,7 +61,7 @@
             transition: 0.3s;
         }
         .form-control:focus { 
-            border-color: var(--edco-primary); 
+            border-color: var(--edoc-primary); 
             box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.1); 
             background-color: #fff;
         }
@@ -80,13 +80,13 @@
             user-select: none;
         }
         .service-selector:hover {
-            border-color: var(--edco-primary);
+            border-color: var(--edoc-primary);
             background: #f0f4ff;
             transform: translateY(-2px);
             box-shadow: 0 6px 20px rgba(79,70,229,0.1);
         }
         .service-selector.active {
-            border-color: var(--edco-primary);
+            border-color: var(--edoc-primary);
             background: #eef2ff;
             box-shadow: 0 0 0 3px rgba(79,70,229,0.25);
             transform: translateY(-2px);
@@ -98,7 +98,7 @@
             right: 10px;
             width: 20px;
             height: 20px;
-            background: var(--edco-primary);
+            background: var(--edoc-primary);
             border-radius: 50%;
             align-items: center;
             justify-content: center;
@@ -113,12 +113,12 @@
         body[data-theme="dark"] .service-selector i.text-primary { color: #818cf8 !important; }
 
         /* --- SIDEBAR INFO --- */
-        .info-box { background: var(--edco-primary); color: white; border-radius: 20px; padding: 40px; margin-bottom: 30px; }
+        .info-box { background: var(--edoc-primary); color: white; border-radius: 20px; padding: 40px; margin-bottom: 30px; }
         .trust-item { display: flex; align-items: start; margin-bottom: 25px; }
         .trust-icon { width: 40px; height: 40px; background: rgba(255,255,255,0.2); border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-right: 20px; flex-shrink: 0; }
 
         /* --- FOOTER --- */
-        .footer-main { background: var(--edco-footer); color: #94a3b8; padding: 80px 0 30px 0; }
+        .footer-main { background: var(--edoc-footer); color: #94a3b8; padding: 80px 0 30px 0; }
     </style>
 </head>
 
@@ -200,9 +200,9 @@
                                         </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <div class="service-selector" data-service="Fintech Lab">
+                                        <div class="service-selector" data-service="Fintech">
                                             <span class="svc-tick"><i class="fa-solid fa-check"></i></span>
-                                            <i class="fa-solid fa-money-bill-transfer text-primary me-3"></i> Fintech Lab
+                                            <i class="fa-solid fa-money-bill-transfer text-primary me-3"></i> Fintech
                                         </div>
                                     </div>
                                     <div class="col-md-4">
@@ -238,7 +238,7 @@
                                 <!-- Confirmation Toast -->
                                 <div id="rfqToast" class="alert mt-4 d-none" role="alert"></div>
 
-                                <button type="submit" id="rfqBtn" class="btn btn-primary btn-lg w-100 mt-4 py-3 fw-bold" style="background: var(--edco-primary); border: none; border-radius: 12px;">
+                                <button type="submit" id="rfqBtn" class="btn btn-primary btn-lg w-100 mt-4 py-3 fw-bold" style="background: var(--edoc-primary); border: none; border-radius: 12px;">
                                     Generate Quotation Request <i class="fa-solid fa-paper-plane ms-2"></i>
                                 </button>
                             </form>
@@ -248,7 +248,7 @@
                     <!-- Sidebar Content -->
                     <div class="col-lg-4" data-aos="fade-left">
                         <div class="info-box">
-                            <h4 class="text-white mb-4">Why Edco Ventures?</h4>
+                            <h4 class="text-white mb-4">Why Edoc Ventures?</h4>
                             <div class="trust-item">
                                 <div class="trust-icon"><i class="fa-solid fa-globe"></i></div>
                                 <div>

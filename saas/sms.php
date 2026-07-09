@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" href="/assets/img/EDCO.png" type="image/png">
+    <link rel="icon" href="/assets/img/EDOC.webp" type="image/webp">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>SMSBox-247 | Edco Ventures - Enterprise Bulk SMS & Reseller Gateway</title>
+    <title>SMSBox-247 | Edoc Ventures - Enterprise Bulk SMS & Reseller Gateway</title>
     <meta name="description" content="SMSBox-247: High-performance bulk SMS gateway and white-label reseller platform for global communication.">
 
     <!-- CDN: Google Fonts -->
@@ -22,20 +22,20 @@
 
     <style>
         :root {
-            --edco-primary: #4f46e5; 
-            --edco-dark: #0f172a;    
-            --edco-topbar: #1e293b;
-            --edco-footer: #020617;
-            --edco-light: #f8fafc;
+            --edoc-primary: #4f46e5; 
+            --edoc-dark: #0f172a;    
+            --edoc-topbar: #1e293b;
+            --edoc-footer: #020617;
+            --edoc-light: #f8fafc;
             --sms-accent: #0ea5e9;
         }
 
         body { font-family: 'Inter', sans-serif; color: #475569; overflow-x: hidden; line-height: 1.7; }
-        h1, h2, h3, h4, .display-4, .display-5 { font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--edco-dark); letter-spacing: -0.02em; }
+        h1, h2, h3, h4, .display-4, .display-5 { font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--edoc-dark); letter-spacing: -0.02em; }
 
         /* --- NAVIGATION --- */
         .navbar { background: #fff; border-bottom: 1px solid rgba(0,0,0,0.05); padding: 15px 0; }
-        .nav-link { font-weight: 600; color: var(--edco-dark) !important; padding: 10px 18px !important; }
+        .nav-link { font-weight: 600; color: var(--edoc-dark) !important; padding: 10px 18px !important; }
 
         /* --- PRODUCT HERO --- */
         .product-hero { 
@@ -68,7 +68,7 @@
 
         /* --- RESELLER BOX --- */
         .reseller-box {
-            background: var(--edco-dark);
+            background: var(--edoc-dark);
             color: white;
             border-radius: 30px;
             padding: 60px;
@@ -88,7 +88,7 @@
             transition: 0.3s; box-shadow: 0 10px 20px rgba(14, 165, 233, 0.3);
             text-decoration: none; display: inline-block;
         }
-        .btn-demo-live:hover { background: var(--edco-primary); color: white; transform: translateY(-3px); }
+        .btn-demo-live:hover { background: var(--edoc-primary); color: white; transform: translateY(-3px); }
 
         /* === DARK MODE OVERRIDES === */
         body[data-theme="dark"] { background-color: #0b0f19 !important; }
@@ -126,15 +126,15 @@
                             SMSBox-247 is a high-availability bulk SMS platform engineered to bind business and technology. Whether you are an enterprise or a reseller, our gateway ensures your stakeholders are reached across multiple continents instantly.
                         </p>
                         <div class="d-flex flex-column flex-sm-row gap-3">
-                            <a href="?page=quation" class="btn-demo-live"><i class="fa-solid fa-play-circle me-2"></i> Launch Live Demo</a>
-                            <a href="?page=quation" class="btn btn-outline-dark px-4 py-3 border-2 fw-bold rounded-3">Developer API</a>
+                            <a href="/quation" class="btn-demo-live"><i class="fa-solid fa-play-circle me-2"></i> Launch Live Demo</a>
+                            <a href="/quation" class="btn btn-outline-dark px-4 py-3 border-2 fw-bold rounded-3">Developer API</a>
                         </div>
                         <div class="mt-4 small text-muted">
                             <i class="fa-solid fa-bolt me-2 text-warning"></i> 99.9% Delivery Rate & 256-bit Encryption
                         </div>
                     </div>
                     <div class="col-lg-6" data-aos="zoom-in">
-                        <img src="assets/img/sms-bulk-messaging.png" class="img-fluid rounded-4 shadow-lg border" alt="SMSBox Dashboard">
+                        <img src="/assets/img/sms-bulk-messaging.webp" class="img-fluid rounded-4 shadow-lg border" alt="SMSBox Dashboard">
                     </div>
                 </div>
             </div>
@@ -191,17 +191,17 @@
                     <div class="row align-items-center">
                         <div class="col-lg-7">
                             <h2 class="text-white display-5 mb-4">Start Your Own SMS Business</h2>
-                            <p class="lead text-white-50 mb-4">Our White-Label Reseller Program allows you to launch your own messaging platform using Edco's world-class infrastructure.</p>
+                            <p class="lead text-white-50 mb-4">Our White-Label Reseller Program allows you to launch your own messaging platform using Edoc's world-class infrastructure.</p>
                             <ul class="list-unstyled mb-5">
                                 <li class="mb-2"><i class="fa-solid fa-circle-check text-info me-2"></i> Custom White-Label Domain & Branding</li>
                                 <li class="mb-2"><i class="fa-solid fa-circle-check text-info me-2"></i> Sub-Account & Credit Management</li>
                                 <li class="mb-2"><i class="fa-solid fa-circle-check text-info me-2"></i> Set Your Own Profit Margins</li>
                                 <li class="mb-2"><i class="fa-solid fa-circle-check text-info me-2"></i> Automated API for Sub-Resellers</li>
                             </ul>
-                            <a href="?page=quation" class="btn btn-light btn-lg px-4 py-3 fw-bold text-primary">Become a Reseller Today</a>
+                            <a href="/quation" class="btn btn-light btn-lg px-4 py-3 fw-bold text-primary">Become a Reseller Today</a>
                         </div>
                         <div class="col-lg-5 d-none d-lg-block">
-                            <img src="assets/img/sms-reseller-success.png" class="img-fluid rounded-4 shadow-lg" alt="Reseller Success">
+                            <img src="/assets/img/sms-reseller-success.webp" class="img-fluid rounded-4 shadow-lg" alt="Reseller Success">
                         </div>
                     </div>
                 </div>
@@ -239,7 +239,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6" data-aos="fade-left">
-                        <img src="assets/img/sms-business-growth.png" class="img-fluid rounded-4 shadow-lg" alt="Business Growth">
+                        <img src="/assets/img/sms-business-growth.webp" class="img-fluid rounded-4 shadow-lg" alt="Business Growth">
                     </div>
                 </div>
             </div>
@@ -251,7 +251,7 @@
                 <div class="p-5 rounded-5 text-center text-white" style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);">
                     <h2 class="text-white display-5 mb-4">Connect Your Stakeholders Now</h2>
                     <p class="text-white-50 lead mb-5 mx-auto" style="max-width: 600px;">Unlock the most powerful connection a business can make with SMSBox-247.</p>
-                    <a href="?page=quation" class="btn-demo-live"><i class="fa-solid fa-bolt me-2"></i> Launch Platform Demo</a>
+                    <a href="/quation" class="btn-demo-live"><i class="fa-solid fa-bolt me-2"></i> Launch Platform Demo</a>
                 </div>
             </div>
         </section>

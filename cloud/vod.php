@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" href="/assets/img/EDCO.png" type="image/png">
+    <link rel="icon" href="/assets/img/EDOC.webp" type="image/webp">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>VOD Manager | Edco Ventures - Enterprise Video Streaming & Storage</title>
+    <title>VOD Manager | Edoc Ventures - Enterprise Video Streaming & Storage</title>
     <meta name="description" content="VOD Manager: High-performance video-on-demand infrastructure for education, entertainment, and enterprise storage.">
 
     <!-- CDN: Google Fonts -->
@@ -22,8 +22,8 @@
 
     <style>
         :root {
-            --edco-primary: #4f46e5; 
-            --edco-dark: #0f172a;    
+            --edoc-primary: #4f46e5; 
+            --edoc-dark: #0f172a;    
             --vod-accent: #f43f5e; /* Vibrant Rose for Media/Video */
             --vod-dark-bg: #020617;
             --vod-soft: #fff1f2;
@@ -134,18 +134,18 @@
                         <span class="hero-badge"><i class="fa-solid fa-play-circle me-2"></i> Content Delivery Ecosystem</span>
                         <h1 class="display-3 mb-4">Content Without <br><span class="text-danger">Boundaries.</span></h1>
                         <p class="lead mb-5 text-white-50">
-                            VOD Manager is an advanced media infrastructure designed to collect, store, and stream high-definition content globally. Built on Edco's Virtual Nodes, we ensure your videos reach every stakeholder—from students to global audiences—with zero latency.
+                            VOD Manager is an advanced media infrastructure designed to collect, store, and stream high-definition content globally. Built on Edoc's Virtual Nodes, we ensure your videos reach every stakeholder—from students to global audiences—with zero latency.
                         </p>
                         <div class="d-flex flex-column flex-sm-row gap-3">
-                            <a href="?page=quation" class="btn-vod"><i class="fa-solid fa-cloud-arrow-up me-2"></i> Provision Media Storage</a>
-                            <a href="?page=quation" class="btn btn-outline-light px-4 py-3 border-2 fw-bold rounded-3">Streaming SLA</a>
+                            <a href="/quation" class="btn-vod"><i class="fa-solid fa-cloud-arrow-up me-2"></i> Provision Media Storage</a>
+                            <a href="/quation" class="btn btn-outline-light px-4 py-3 border-2 fw-bold rounded-3">Streaming SLA</a>
                         </div>
                         <div class="mt-4 small text-muted">
                             <i class="fa-solid fa-circle-check me-2 text-danger"></i> Adaptive Bitrate Streaming & Multi-Continent CDN
                         </div>
                     </div>
                     <div class="col-lg-5 text-center" data-aos="zoom-in">
-                        <img src="assets/img/cloud-vod-streaming-infra.png" class="img-fluid rounded-4 shadow-lg border border-secondary border-opacity-25" alt="Streaming Infrastructure">
+                        <img src="/assets/img/cloud-vod-streaming-infra.webp" class="img-fluid rounded-4 shadow-lg border border-secondary border-opacity-25" alt="Streaming Infrastructure">
                     </div>
                 </div>
             </div>
@@ -192,12 +192,12 @@
             <div class="container">
                 <div class="text-center mb-5" data-aos="fade-up">
                     <h2 class="display-5">Tailored to Every Purpose</h2>
-                    <p class="text-white-50">Edco VOD Manager binds business and technology across diverse sectors.</p>
+                    <p class="text-white-50">Edoc VOD Manager binds business and technology across diverse sectors.</p>
                 </div>
                 <div class="row g-4">
                     <!-- Education -->
                     <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-                        <div class="sector-card" style="background: url('assets/img/vod-education-sector.png') center; background-size: cover;">
+                        <div class="sector-card" style="background: url('/assets/img/vod-education-sector.webp') center; background-size: cover;">
                             <div class="sector-overlay">
                                 <h4 class="fw-bold">Educational Hubs</h4>
                                 <p class="small text-white-50">Integrated with eLearning Pro to deliver recorded lectures and tutorials to remote sites across continents.</p>
@@ -206,7 +206,7 @@
                     </div>
                     <!-- Entertainment -->
                     <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-                        <div class="sector-card" style="background: url('assets/img/vod-sector-background.png') center; background-size: cover;">
+                        <div class="sector-card" style="background: url('/assets/img/vod-sector-background.webp') center; background-size: cover;">
                             <div class="sector-overlay">
                                 <h4 class="fw-bold">Entertainment Media</h4>
                                 <p class="small text-white-50">White-label streaming solutions for movie portals, music videos, and cultural content distribution.</p>
@@ -215,7 +215,7 @@
                     </div>
                     <!-- Enterprise -->
                     <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
-                        <div class="sector-card" style="background: url('assets/img/cloud-global-network-2.png') center; background-size: cover;">
+                        <div class="sector-card" style="background: url('/assets/img/cloud-global-network-2.webp') center; background-size: cover;">
                             <div class="sector-overlay">
                                 <h4 class="fw-bold">Enterprise Storage</h4>
                                 <p class="small text-white-50">Secure collection and storage of internal corporate training, webinars, and archival data.</p>
@@ -269,7 +269,7 @@
             <div class="container py-5">
                 <h2 class="display-5 mb-4">Bind Your Content to Technology</h2>
                 <p class="text-white-50 lead mb-5 mx-auto" style="max-width: 600px;">Experience the power of a unified media ecosystem. Secure, scalable, and engineered for the global dynamic business.</p>
-                <a href="?page=quation" class="btn-vod px-5 py-3"><i class="fa-solid fa-bolt me-2"></i> Launch VOD Demo</a>
+                <a href="/quation" class="btn-vod px-5 py-3"><i class="fa-solid fa-bolt me-2"></i> Launch VOD Demo</a>
             </div>
         </section>
 

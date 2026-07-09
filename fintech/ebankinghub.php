@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" href="/assets/img/EDCO.png" type="image/png">
+    <link rel="icon" href="/assets/img/EDOC.webp" type="image/webp">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>eBanking Hub | Edco Ventures - Modern digital banking and mobile wallet solutions</title>
-    <meta name="description" content="Quest Pay: The ultimate payment solution for merchants and fundraisers. Instant scan-to-pay and secure crowdfunding powered by Edco Ventures.">
+    <title>eBanking Hub | Edoc Ventures - Modern digital banking and mobile wallet solutions</title>
+    <meta name="description" content="Quest Pay: The ultimate payment solution for merchants and fundraisers. Instant scan-to-pay and secure crowdfunding powered by Edoc Ventures.">
 
     <!-- CDN: Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,20 +22,20 @@
 
     <style>
         :root {
-            --edco-primary: #4f46e5; 
-            --edco-dark: #0f172a;    
-            --edco-topbar: #1e293b;
-            --edco-footer: #020617;
+            --edoc-primary: #4f46e5; 
+            --edoc-dark: #0f172a;    
+            --edoc-topbar: #1e293b;
+            --edoc-footer: #020617;
             --quest-accent: #0ea5e9; /* Sky Blue for Fintech */
             --quest-soft: #f0f9ff;
         }
 
         body { font-family: 'Inter', sans-serif; color: #475569; overflow-x: hidden; line-height: 1.7; }
-        h1, h2, h3, h4, .display-4, .display-5 { font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--edco-dark); letter-spacing: -0.02em; }
+        h1, h2, h3, h4, .display-4, .display-5 { font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--edoc-dark); letter-spacing: -0.02em; }
 
         /* --- NAVIGATION --- */
         .navbar { background: #fff; border-bottom: 1px solid rgba(0,0,0,0.05); padding: 15px 0; }
-        .nav-link { font-weight: 600; color: var(--edco-dark) !important; padding: 10px 18px !important; }
+        .nav-link { font-weight: 600; color: var(--edoc-dark) !important; padding: 10px 18px !important; }
 
         /* --- PRODUCT HERO --- */
         .product-hero { 
@@ -72,7 +72,7 @@
 
         /* --- IMPACT SECTION --- */
         .impact-bg {
-            background: var(--edco-dark);
+            background: var(--edoc-dark);
             color: white;
             border-radius: 30px;
             padding: 80px 60px;
@@ -87,7 +87,7 @@
             transition: 0.3s; box-shadow: 0 10px 20px rgba(14, 165, 233, 0.3);
             text-decoration: none; display: inline-block;
         }
-        .btn-quest:hover { background: var(--edco-primary); color: white; transform: translateY(-3px); }
+        .btn-quest:hover { background: var(--edoc-primary); color: white; transform: translateY(-3px); }
 
         .qr-mockup {
             max-width: 300px;
@@ -129,18 +129,18 @@
                         <span class="hero-badge">Next-Gen Payment Gateway</span>
                         <h1 class="display-3 mb-4">Modern digital banking and mobile wallet <span class="text-primary">solutions.</span></h1>
                         <p class="lead mb-5 text-muted">
-                            Quest Pay is Edco Ventures' flagship payment ecosystem. From high-speed Scan-to-Pay for retail merchants to secure, global crowdfunding for social impact, we provide the infrastructure for every transaction.
+                            Quest Pay is Edoc Ventures' flagship payment ecosystem. From high-speed Scan-to-Pay for retail merchants to secure, global crowdfunding for social impact, we provide the infrastructure for every transaction.
                         </p>
                         <div class="d-flex flex-column flex-sm-row gap-3">
-                            <a href="?page=quation" class="btn-quest"><i class="fa-solid fa-qrcode me-2"></i> Launch Merchant Demo</a>
-                            <a href="?page=quation" class="btn btn-outline-dark px-4 py-3 border-2 fw-bold rounded-3">Start a Fundraiser</a>
+                            <a href="/quation" class="btn-quest"><i class="fa-solid fa-qrcode me-2"></i> Launch Merchant Demo</a>
+                            <a href="/quation" class="btn btn-outline-dark px-4 py-3 border-2 fw-bold rounded-3">Start a Fundraiser</a>
                         </div>
                         <div class="mt-4 small text-muted">
                             <i class="fa-solid fa-shield-check me-2 text-success"></i> PCI-DSS Compliant & Real-Time Fraud Monitoring
                         </div>
                     </div>
                     <div class="col-lg-5 text-center" data-aos="zoom-in">
-                        <img src="assets/img/fintech-banking-dashboard.png" class="img-fluid rounded-4 shadow-lg qr-mockup" alt="Quest Pay QR Scanner">
+                        <img src="/assets/img/fintech-banking-dashboard.webp" class="img-fluid rounded-4 shadow-lg qr-mockup" alt="Quest Pay QR Scanner">
                     </div>
                 </div>
             </div>
@@ -195,7 +195,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-6">
                             <h2 class="text-white display-5 mb-4">Binding Finance <br>to Stakeholders.</h2>
-                            <p class="lead text-white-50 mb-5">Quest Pay leverages Edco Ventures' global footprint to provide a practical payment solution that creates an environment for financial success and stakeholder engagement.</p>
+                            <p class="lead text-white-50 mb-5">Quest Pay leverages Edoc Ventures' global footprint to provide a practical payment solution that creates an environment for financial success and stakeholder engagement.</p>
                             
                             <div class="d-flex mb-4">
                                 <div class="me-3 text-info"><i class="fa-solid fa-shield-halved fa-2x"></i></div>
@@ -212,10 +212,10 @@
                                 </div>
                             </div>
 
-                            <a href="?page=quation" class="btn btn-info btn-lg px-4 py-3 fw-bold text-white">Join the Payment Revolution</a>
+                            <a href="/quation" class="btn btn-info btn-lg px-4 py-3 fw-bold text-white">Join the Payment Revolution</a>
                         </div>
                         <div class="col-lg-6 d-none d-lg-block text-center">
-                            <img src="assets/img/fintech-ebankinghub-digital-economy.png" class="img-fluid rounded-4 shadow-lg border-primary" alt="Digital Economy">
+                            <img src="/assets/img/fintech-ebankinghub-digital-economy.webp" class="img-fluid rounded-4 shadow-lg border-primary" alt="Digital Economy">
                         </div>
                     </div>
                 </div>
@@ -227,7 +227,7 @@
             <div class="container py-5">
                 <h2 class="display-5 mb-4">Launch Your Transactional Ecosystem</h2>
                 <p class="text-muted lead mb-5 mx-auto" style="max-width: 600px;">Experience the power of Quest Pay. Secure, scalable, and engineered for the modern dynamic business.</p>
-                <a href="?page=quation" class="btn-quest"><i class="fa-solid fa-bolt me-2"></i> Launch Quest Pay Demo</a>
+                <a href="/quation" class="btn-quest"><i class="fa-solid fa-bolt me-2"></i> Launch Quest Pay Demo</a>
             </div>
         </section>
 

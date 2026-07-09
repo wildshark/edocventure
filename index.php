@@ -1,6 +1,6 @@
 <?php
 
-define('EDCO_LOADED', true);
+define('EDOC_LOADED', true);
 
 if(!isset($_REQUEST['submit'])){
     if(!isset($_REQUEST['page'])){

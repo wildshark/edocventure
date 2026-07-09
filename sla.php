@@ -1,14 +1,14 @@
-<?php if(!defined('EDCO_LOADED')) { header('Location: /'); exit; } ?>
+<?php if(!defined('EDOC_LOADED')) { header('Location: /'); exit; } ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <link rel="icon" href="/assets/img/EDCO.png" type="image/png">
+    <link rel="icon" href="/assets/img/EDOC.webp" type="image/webp">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Service Level Agreement | Edco Ventures</title>
-    <meta name="description" content="Edco Ventures Service Level Agreement. Understand our commitment to uptime, response times, support tiers and client obligations.">
+    <title>Service Level Agreement | Edoc Ventures</title>
+    <meta name="description" content="Edoc Ventures Service Level Agreement. Understand our commitment to uptime, response times, support tiers and client obligations.">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,12 +19,12 @@
 
     <style>
         :root {
-            --edco-primary: #4f46e5;
-            --edco-dark: #0f172a;
-            --edco-footer: #020617;
+            --edoc-primary: #4f46e5;
+            --edoc-dark: #0f172a;
+            --edoc-footer: #020617;
         }
         body { font-family: 'Inter', sans-serif; color: #475569; background-color: #f8fafc; line-height: 1.8; }
-        h1, h2, h3, h4, h5 { font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--edco-dark); letter-spacing: -0.02em; }
+        h1, h2, h3, h4, h5 { font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--edoc-dark); letter-spacing: -0.02em; }
 
         /* ── HERO ── */
         .sla-hero {
@@ -67,8 +67,8 @@
         .sla-section-title {
             font-size: 1.25rem;
             font-weight: 800;
-            color: var(--edco-dark);
-            border-left: 4px solid var(--edco-primary);
+            color: var(--edoc-dark);
+            border-left: 4px solid var(--edoc-primary);
             padding-left: 16px;
             margin-bottom: 18px;
         }
@@ -77,7 +77,7 @@
         .sla-section ul li { margin-bottom: 8px; }
 
         /* ── UPTIME TABLE ── */
-        .uptime-table th { background: var(--edco-primary); color: #fff; font-weight: 700; font-size: 0.88rem; text-transform: uppercase; letter-spacing: 0.05em; }
+        .uptime-table th { background: var(--edoc-primary); color: #fff; font-weight: 700; font-size: 0.88rem; text-transform: uppercase; letter-spacing: 0.05em; }
         .uptime-table td { font-size: 0.93rem; vertical-align: middle; }
         .uptime-table tbody tr:hover { background: #f0f4ff; }
         .badge-green  { background: #dcfce7; color: #15803d; border-radius: 8px; padding: 4px 12px; font-weight: 700; font-size: 0.8rem; }
@@ -88,7 +88,7 @@
         /* ── HIGHLIGHT BOXES ── */
         .sla-note {
             background: #eef2ff;
-            border-left: 4px solid var(--edco-primary);
+            border-left: 4px solid var(--edoc-primary);
             border-radius: 0 12px 12px 0;
             padding: 16px 20px;
             font-size: 0.93rem;
@@ -106,15 +106,15 @@
         }
 
         /* ── QUICK-STATS STRIP ── */
-        .sla-stat-strip { background: var(--edco-primary); border-radius: 20px; padding: 40px 50px; color: #fff; margin-bottom: 48px; }
+        .sla-stat-strip { background: var(--edoc-primary); border-radius: 20px; padding: 40px 50px; color: #fff; margin-bottom: 48px; }
         .sla-stat-strip .stat-num { font-family: 'Outfit', sans-serif; font-size: 2.6rem; font-weight: 800; color: #fff; }
         .sla-stat-strip .stat-lbl { font-size: 0.85rem; color: rgba(255,255,255,0.7); margin-top: 4px; }
 
         /* ── SIDEBAR TOC ── */
         .toc-card { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 20px; padding: 30px; position: sticky; top: 100px; }
-        .toc-card h6 { font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--edco-dark); margin-bottom: 16px; }
+        .toc-card h6 { font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--edoc-dark); margin-bottom: 16px; }
         .toc-card a { display: block; color: #64748b; font-size: 0.88rem; padding: 6px 0; text-decoration: none; border-bottom: 1px solid #f1f5f9; transition: 0.2s; }
-        .toc-card a:hover { color: var(--edco-primary); padding-left: 6px; }
+        .toc-card a:hover { color: var(--edoc-primary); padding-left: 6px; }
         .toc-card a:last-child { border-bottom: none; }
 
         /* ── DARK MODE ── */
@@ -217,7 +217,7 @@
                             <!-- SECTION 1 -->
                             <div class="sla-section" id="s1">
                                 <div class="sla-section-title">1. Parties &amp; Scope</div>
-                                <p>This Service Level Agreement ("SLA") is entered into between <strong>Edco Ventures Ltd</strong> ("Provider," "we," "us") and the client entity that has executed a Master Service Agreement or Purchase Order referencing this SLA ("Client").</p>
+                                <p>This Service Level Agreement ("SLA") is entered into between <strong>Edoc Ventures Ltd</strong> ("Provider," "we," "us") and the client entity that has executed a Master Service Agreement or Purchase Order referencing this SLA ("Client").</p>
                                 <p>This SLA governs the delivery of the following service categories:</p>
                                 <ul>
                                     <li>Custom Software Development &amp; Deployment</li>
@@ -235,7 +235,7 @@
                             <!-- SECTION 2 -->
                             <div class="sla-section" id="s2">
                                 <div class="sla-section-title">2. Service Uptime Commitment</div>
-                                <p>Edco Ventures commits to the following monthly uptime targets, measured on a rolling 30-day basis, excluding Scheduled Maintenance Windows:</p>
+                                <p>Edoc Ventures commits to the following monthly uptime targets, measured on a rolling 30-day basis, excluding Scheduled Maintenance Windows:</p>
                                 <div class="table-responsive mt-3 mb-4">
                                     <table class="table uptime-table table-bordered align-middle">
                                         <thead>
@@ -278,7 +278,7 @@
                                         </tbody>
                                     </table>
                                 </div>
-                                <p><strong>Scheduled Maintenance:</strong> Edco Ventures reserves the right to perform maintenance between <strong>00:00–04:00 GMT on Sundays</strong>. Clients will receive a minimum <strong>72 hours advance notice</strong> via email for any planned outages exceeding 30 minutes.</p>
+                                <p><strong>Scheduled Maintenance:</strong> Edoc Ventures reserves the right to perform maintenance between <strong>00:00–04:00 GMT on Sundays</strong>. Clients will receive a minimum <strong>72 hours advance notice</strong> via email for any planned outages exceeding 30 minutes.</p>
                             </div>
 
                             <!-- SECTION 3 -->
@@ -322,7 +322,7 @@
                                         </tbody>
                                     </table>
                                 </div>
-                                <p>Response time begins when the Client submits a support ticket through the official support portal. Edco Ventures does not guarantee resolution within target times where the root cause lies with third-party infrastructure providers (e.g., AWS, Azure, Twilio).</p>
+                                <p>Response time begins when the Client submits a support ticket through the official support portal. Edoc Ventures does not guarantee resolution within target times where the root cause lies with third-party infrastructure providers (e.g., AWS, Azure, Twilio).</p>
                             </div>
 
                             <!-- SECTION 4 -->
@@ -354,7 +354,7 @@
                             <!-- SECTION 5 -->
                             <div class="sla-section" id="s5">
                                 <div class="sla-section-title">5. Service Credits &amp; Remedies</div>
-                                <p>In the event that Edco Ventures fails to meet the uptime commitment in Section 2, the Client may request Service Credits as follows:</p>
+                                <p>In the event that Edoc Ventures fails to meet the uptime commitment in Section 2, the Client may request Service Credits as follows:</p>
                                 <ul>
                                     <li><strong>99.5%–99.9%</strong> actual uptime (missed commitment): 5% credit of monthly fee for affected service</li>
                                     <li><strong>95.0%–99.4%</strong> actual uptime: 10% credit of monthly fee</li>
@@ -377,7 +377,7 @@
                                     <li>Report incidents through the official support channel only — not via personal staff contacts.</li>
                                     <li>Maintain timely payment of all invoices. Support response for accounts with overdue balances exceeding 14 days may be downgraded to Standard tier.</li>
                                     <li>Comply with all acceptable use policies and not use services for unlawful or harmful activities.</li>
-                                    <li>Ensure their own systems (hardware, network, third-party integrations) meet minimum compatibility requirements as advised by Edco Ventures.</li>
+                                    <li>Ensure their own systems (hardware, network, third-party integrations) meet minimum compatibility requirements as advised by Edoc Ventures.</li>
                                 </ul>
                             </div>
 
@@ -390,7 +390,7 @@
                                     <li>Client-side network, hardware, or software failures</li>
                                     <li>Actions or omissions by the Client or any third party authorised by the Client</li>
                                     <li>Force majeure events (natural disasters, war, government orders, widespread internet outages)</li>
-                                    <li>Failure of third-party services not within Edco Ventures' direct control (e.g., telecommunications providers, cloud CDN providers)</li>
+                                    <li>Failure of third-party services not within Edoc Ventures' direct control (e.g., telecommunications providers, cloud CDN providers)</li>
                                     <li>Beta features, developer sandbox environments, or services explicitly marked as preview</li>
                                     <li>Incidents caused by the Client exceeding agreed usage quotas without prior authorisation</li>
                                 </ul>
@@ -399,7 +399,7 @@
                             <!-- SECTION 8 -->
                             <div class="sla-section" id="s8">
                                 <div class="sla-section-title">8. Security Commitments</div>
-                                <p>Edco Ventures maintains the following security standards across all managed services:</p>
+                                <p>Edoc Ventures maintains the following security standards across all managed services:</p>
                                 <ul>
                                     <li><strong>Encryption:</strong> All data at-rest and in-transit is encrypted using AES-256 and TLS 1.3 or higher.</li>
                                     <li><strong>Access Control:</strong> Role-based access control (RBAC) with multi-factor authentication for administrative systems.</li>
@@ -415,8 +415,8 @@
                                 <div class="sla-section-title">9. Limitation of Liability</div>
                                 <p>To the maximum extent permitted by applicable law:</p>
                                 <ul>
-                                    <li>Edco Ventures' total aggregate liability for all claims arising under this SLA shall not exceed the fees paid by the Client in the <strong>3 months preceding the incident</strong>.</li>
-                                    <li>Edco Ventures shall not be liable for any indirect, incidental, consequential, punitive, or special damages, including loss of profits, data, or business opportunity, even if advised of such possibility.</li>
+                                    <li>Edoc Ventures' total aggregate liability for all claims arising under this SLA shall not exceed the fees paid by the Client in the <strong>3 months preceding the incident</strong>.</li>
+                                    <li>Edoc Ventures shall not be liable for any indirect, incidental, consequential, punitive, or special damages, including loss of profits, data, or business opportunity, even if advised of such possibility.</li>
                                     <li>Service Credits described in Section 5 constitute the Client's sole and exclusive remedy for service availability failures.</li>
                                 </ul>
                                 <div class="sla-note">
@@ -435,8 +435,8 @@
                             <!-- SECTION 11 -->
                             <div class="sla-section" id="s11">
                                 <div class="sla-section-title">11. Amendments</div>
-                                <p>Edco Ventures reserves the right to amend this SLA at any time. Clients will be notified of material changes via email at least <strong>30 days before the changes take effect</strong>. Continued use of the services after the effective date constitutes acceptance of the revised SLA.</p>
-                                <p>If a Client does not accept the revised terms, they must notify Edco Ventures in writing within the 30-day notice period and may terminate their service subscription without penalty.</p>
+                                <p>Edoc Ventures reserves the right to amend this SLA at any time. Clients will be notified of material changes via email at least <strong>30 days before the changes take effect</strong>. Continued use of the services after the effective date constitutes acceptance of the revised SLA.</p>
+                                <p>If a Client does not accept the revised terms, they must notify Edoc Ventures in writing within the 30-day notice period and may terminate their service subscription without penalty.</p>
                             </div>
 
                             <!-- SECTION 12 -->
@@ -444,15 +444,15 @@
                                 <div class="sla-section-title">12. Contact &amp; Support</div>
                                 <p>For all SLA-related queries, incident reporting, or credit claims, please contact us through:</p>
                                 <ul>
-                                    <li><strong>Support Portal:</strong> <a href="?page=contact" class="text-primary">Contact Page</a></li>
-                                    <li><strong>Email:</strong> support@edcoventures.com</li>
+                                    <li><strong>Support Portal:</strong> <a href="/contact" class="text-primary">Contact Page</a></li>
+                                    <li><strong>Email:</strong> support@edocventures.com</li>
                                     <li><strong>Emergency Hotline (Enterprise Clients):</strong> Provided at contract signing</li>
                                 </ul>
                                 <div class="mt-4 d-flex flex-wrap gap-3">
-                                    <a href="?page=quation" class="btn btn-primary px-4 py-3 fw-bold rounded-3" style="background:var(--edco-primary);border:none;">
+                                    <a href="/quation" class="btn btn-primary px-4 py-3 fw-bold rounded-3" style="background:var(--edoc-primary);border:none;">
                                         <i class="fa-solid fa-paper-plane me-2"></i>Request a Quotation
                                     </a>
-                                    <a href="?page=contact" class="btn btn-outline-secondary px-4 py-3 fw-bold rounded-3">
+                                    <a href="/contact" class="btn btn-outline-secondary px-4 py-3 fw-bold rounded-3">
                                         <i class="fa-solid fa-headset me-2"></i>Contact Support
                                     </a>
                                 </div>
@@ -462,9 +462,9 @@
                             <hr class="mt-4">
                             <p class="small text-muted mt-3">
                                 <i class="fa-solid fa-file-contract me-1"></i>
-                                <strong>Edco Ventures Ltd</strong> — Registered in Ghana. This SLA is effective from 1 January 2025 and supersedes all prior SLA versions.
-                                <a href="?page=terms" class="text-primary ms-2">Terms of Service</a> &nbsp;|&nbsp;
-                                <a href="?page=privacy" class="text-primary">Privacy Policy</a>
+                                <strong>Edoc Ventures Ltd</strong> — Registered in Ghana. This SLA is effective from 1 January 2025 and supersedes all prior SLA versions.
+                                <a href="/terms" class="text-primary ms-2">Terms of Service</a> &nbsp;|&nbsp;
+                                <a href="/privacy" class="text-primary">Privacy Policy</a>
                             </p>
 
                         </div><!-- /sla-card -->

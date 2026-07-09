@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" href="/assets/img/EDCO.png" type="image/png">
+    <link rel="icon" href="/assets/img/EDOC.webp" type="image/webp">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>RadioStream | Edco Ventures - Enterprise Radio & Digital Broadcasting</title>
+    <title>RadioStream | Edoc Ventures - Enterprise Radio & Digital Broadcasting</title>
     <meta name="description" content="RadioStream: High-performance digital radio broadcasting with global reach, automated scheduling, and low-latency streaming.">
 
     <!-- CDN: Google Fonts -->
@@ -22,8 +22,8 @@
 
     <style>
         :root {
-            --edco-primary: #4f46e5; 
-            --edco-dark: #0f172a;    
+            --edoc-primary: #4f46e5; 
+            --edoc-dark: #0f172a;    
             --radio-accent: #a855f7; /* Vibrant Purple for Audio/Vibe */
             --radio-dark-bg: #020617;
         }
@@ -132,11 +132,11 @@
                         <span class="hero-badge"><i class="fa-solid fa-tower-broadcast me-2"></i> Digital Audio Ecosystem</span>
                         <h1 class="display-3 mb-4">Broadcast Your Vision. <span class="text-purple" style="color:var(--radio-accent)">Bind Your Audience.</span></h1>
                         <p class="lead mb-5 text-white-50">
-                            RadioStream is Edco Ventures' premier broadcasting suite. We leverage high-performance virtual nodes to deliver crystal-clear audio globally. Whether for community worship, enterprise communication, or education, we bind sound to technology.
+                            RadioStream is Edoc Ventures' premier broadcasting suite. We leverage high-performance virtual nodes to deliver crystal-clear audio globally. Whether for community worship, enterprise communication, or education, we bind sound to technology.
                         </p>
                         <div class="d-flex flex-column flex-sm-row gap-3">
-                            <a href="?page=quation" class="btn-radio"><i class="fa-solid fa-microphone-lines me-2"></i> Start Broadcasting</a>
-                            <a href="?page=quation" class="btn btn-outline-light px-4 py-3 border-2 fw-bold rounded-3">Streaming SLA</a>
+                            <a href="/quation" class="btn-radio"><i class="fa-solid fa-microphone-lines me-2"></i> Start Broadcasting</a>
+                            <a href="/quation" class="btn btn-outline-light px-4 py-3 border-2 fw-bold rounded-3">Streaming SLA</a>
                         </div>
                         <div class="mt-4 small text-muted">
                             <i class="fa-solid fa-globe me-2 text-info"></i> Multi-Continent Edge Casting & Adaptive Bitrate
@@ -185,7 +185,7 @@
                         <div class="radio-card">
                             <div class="radio-icon"><i class="fa-solid fa-gauge-high"></i></div>
                             <h3>Ultra-Low Latency</h3>
-                            <p>Powered by Edco's Virtual Nodes. Deliver live commentary, sermons, or news with sub-second delay across multiple continents.</p>
+                            <p>Powered by Edoc's Virtual Nodes. Deliver live commentary, sermons, or news with sub-second delay across multiple continents.</p>
                         </div>
                     </div>
                     <!-- Feature 3 -->
@@ -214,10 +214,10 @@
                             <li class="mb-3 d-flex"><i class="fa-solid fa-check text-purple me-3 mt-1"></i> <div>Integrated Donation Links (Quest Pay)</div></li>
                             <li class="mb-3 d-flex"><i class="fa-solid fa-check text-purple me-3 mt-1"></i> <div>Automatic Recording to myLibrary</div></li>
                         </ul>
-                        <a href="?page=quation" class="btn btn-outline-light px-5 py-3 fw-bold">Church Broadcasting Solutions</a>
+                        <a href="/quation" class="btn btn-outline-light px-5 py-3 fw-bold">Church Broadcasting Solutions</a>
                     </div>
                     <div class="col-lg-6" data-aos="fade-left">
-                        <img src="assets/img/stream-radio-integration.png" class="img-fluid rounded-4 shadow-lg" alt="Radio Integration">
+                        <img src="/assets/img/stream-radio-integration.webp" class="img-fluid rounded-4 shadow-lg" alt="Radio Integration">
                     </div>
                 </div>
             </div>
@@ -254,7 +254,7 @@
             <div class="container py-5">
                 <h2 class="display-5 mb-4">Empower Your Digital Voice</h2>
                 <p class="text-white-50 lead mb-5 mx-auto" style="max-width: 600px;">Stop worrying about server limits. Start leveraging the most powerful connection a business can make with RadioStream.</p>
-                <a href="?page=quation" class="btn-radio px-5 py-3"><i class="fa-solid fa-bolt me-2"></i> Launch Station Console</a>
+                <a href="/quation" class="btn-radio px-5 py-3"><i class="fa-solid fa-bolt me-2"></i> Launch Station Console</a>
             </div>
         </section>
 

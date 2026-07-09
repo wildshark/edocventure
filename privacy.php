@@ -1,18 +1,18 @@
 <?php
-    if (!defined('EDCO_LOADED')) {
-        header('Location: index.php?page=privacy');
+    if (!defined('EDOC_LOADED')) {
+        header('Location: /privacy');
         exit;
     }
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" href="/assets/img/EDCO.png" type="image/png">
+    <link rel="icon" href="/assets/img/EDOC.webp" type="image/webp">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Privacy Policy | Edco Ventures</title>
-    <meta name="description" content="Privacy Policy for Edco Ventures enterprise IT, SaaS, and Fintech applications.">
+    <title>Privacy Policy | Edoc Ventures</title>
+    <meta name="description" content="Privacy Policy for Edoc Ventures enterprise IT, SaaS, and Fintech applications.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -21,14 +21,14 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <style>
         :root {
-            --edco-primary: #4f46e5;
-            --edco-dark: #0f172a;
-            --edco-topbar: #1e293b;
-            --edco-footer: #020617;
-            --edco-light: #f8fafc;
+            --edoc-primary: #4f46e5;
+            --edoc-dark: #0f172a;
+            --edoc-topbar: #1e293b;
+            --edoc-footer: #020617;
+            --edoc-light: #f8fafc;
         }
-        body { font-family: 'Inter', sans-serif; color: #475569; background-color: var(--edco-light); line-height: 1.7; }
-        h1, h2, h3, h4, .display-5 { font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--edco-dark); letter-spacing: -0.02em; }
+        body { font-family: 'Inter', sans-serif; color: #475569; background-color: var(--edoc-light); line-height: 1.7; }
+        h1, h2, h3, h4, .display-5 { font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--edoc-dark); letter-spacing: -0.02em; }
         .page-header {
             background: radial-gradient(circle at 0% 0%, #1e1b4b, #0f172a);
             padding: 100px 0 160px;
@@ -75,10 +75,10 @@
                 <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
                     <div class="glass-card">
                         <h2 class="mb-4">1. Scope of Data Governance</h2>
-                        <p>This Privacy Policy outlines how Edco Ventures ("we", "our", "us") collects, processes, and secure data across all SaaS platforms, Fintech labs, and cloud infrastructure applications in our ecosystem. By interacting with our products, you authorize Edco Ventures to utilize automated data processing logs to train, optimize, and fortify the operational logic of our enterprise nodes.</p>
+                        <p>This Privacy Policy outlines how Edoc Ventures ("we", "our", "us") collects, processes, and secure data across all SaaS platforms, Fintech, and cloud infrastructure applications in our ecosystem. By interacting with our products, you authorize Edoc Ventures to utilize automated data processing logs to train, optimize, and fortify the operational logic of our enterprise nodes.</p>
 
                         <h2 class="mt-5 mb-4">2. Core Operational Authorization</h2>
-                        <p>To deliver high-speed transactions and zero-latency analytics, our backend systems process metadata dynamically. Edco Ventures maintains absolute ownership of system telemetry, database indices, and anonymized logs generated through user interactions, using them to guarantee service stability, perform network updates, and prevent malicious exploits.</p>
+                        <p>To deliver high-speed transactions and zero-latency analytics, our backend systems process metadata dynamically. Edoc Ventures maintains absolute ownership of system telemetry, database indices, and anonymized logs generated through user interactions, using them to guarantee service stability, perform network updates, and prevent malicious exploits.</p>
 
                         <h2 class="mt-5 mb-4">3. Data Retention and Sovereignty</h2>
                         <p>All sensitive information, financial data logs, and school management database records are encrypted at rest and in transit. We maintain sovereign control over all data pipelines to insulate our software ecosystems from unauthorized third-party scraping and reverse-engineering, reserving the right to restrict system access immediately upon detection of anomalous telemetry.</p>
