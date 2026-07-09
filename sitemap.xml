@@ -10,135 +10,135 @@
         <priority>1.00</priority>
     </url>
     <url>
-        <loc>https://www.edocventures.com/?page=home</loc>
+        <loc>https://www.edocventures.com/home</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.00</priority>
     </url>
     <url>
-        <loc>https://www.edocventures.com/?page=services</loc>
+        <loc>https://www.edocventures.com/services</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.90</priority>
     </url>
     <url>
-        <loc>https://www.edocventures.com/?page=about</loc>
+        <loc>https://www.edocventures.com/about</loc>
+        <lastmod>2026-07-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.90</priority>
+    </url>
+    <url>
+        <loc>https://www.edocventures.com/contact</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://www.edocventures.com/?page=contact</loc>
+        <loc>https://www.edocventures.com/quation</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://www.edocventures.com/?page=quation</loc>
-        <lastmod>2026-07-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.95</priority>
-    </url>
-    <url>
-        <loc>https://www.edocventures.com/?page=academy</loc>
+        <loc>https://www.edocventures.com/academy</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.85</priority>
     </url>
     <url>
-        <loc>https://www.edocventures.com/?page=elearningpro</loc>
+        <loc>https://www.edocventures.com/elearningpro</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.85</priority>
     </url>
     <url>
-        <loc>https://www.edocventures.com/?page=sms</loc>
+        <loc>https://www.edocventures.com/sms</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.85</priority>
     </url>
     <url>
-        <loc>https://www.edocventures.com/?page=eaccounting</loc>
+        <loc>https://www.edocventures.com/eaccounting</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.85</priority>
     </url>
     <url>
-        <loc>https://www.edocventures.com/?page=ebankinghub</loc>
+        <loc>https://www.edocventures.com/ebankinghub</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.85</priority>
     </url>
     <url>
-        <loc>https://www.edocventures.com/?page=swaplabs</loc>
+        <loc>https://www.edocventures.com/swaplabs</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.85</priority>
     </url>
     <url>
-        <loc>https://www.edocventures.com/?page=questpay</loc>
+        <loc>https://www.edocventures.com/questpay</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.85</priority>
     </url>
     <url>
-        <loc>https://www.edocventures.com/?page=cloud/virtualhode</loc>
+        <loc>https://www.edocventures.com/virtualhode</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.85</priority>
     </url>
     <url>
-        <loc>https://www.edocventures.com/?page=cloud/vod</loc>
+        <loc>https://www.edocventures.com/vod</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.85</priority>
     </url>
     <url>
-        <loc>https://www.edocventures.com/?page=cloud/stream</loc>
+        <loc>https://www.edocventures.com/stream</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.85</priority>
     </url>
     <url>
-        <loc>https://www.edocventures.com/?page=saas/ekkilsia</loc>
+        <loc>https://www.edocventures.com/ekkilsia</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.80</priority>
+        <priority>0.85</priority>
     </url>
     <url>
-        <loc>https://www.edocventures.com/?page=saas/mylibrary</loc>
+        <loc>https://www.edocventures.com/mylibrary</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.80</priority>
+        <priority>0.85</priority>
     </url>
     <url>
-        <loc>https://www.edocventures.com/?page=fintech/cashwired</loc>
+        <loc>https://www.edocventures.com/cashwired</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.80</priority>
+        <priority>0.85</priority>
     </url>
     <url>
-        <loc>https://www.edocventures.com/?page=fintech/payme</loc>
+        <loc>https://www.edocventures.com/payme</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.80</priority>
+        <priority>0.85</priority>
     </url>
     <url>
-        <loc>https://www.edocventures.com/?page=privacy</loc>
+        <loc>https://www.edocventures.com/privacy</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>yearly</changefreq>
-        <priority>0.30</priority>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>https://www.edocventures.com/?page=terms</loc>
+        <loc>https://www.edocventures.com/terms</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>yearly</changefreq>
-        <priority>0.30</priority>
+        <priority>0.40</priority>
     </url>
     <url>
-        <loc>https://www.edocventures.com/?page=sla</loc>
+        <loc>https://www.edocventures.com/sla</loc>
         <lastmod>2026-07-09</lastmod>
         <changefreq>yearly</changefreq>
-        <priority>0.30</priority>
+        <priority>0.40</priority>
     </url>
 </urlset>

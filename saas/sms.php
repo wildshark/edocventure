@@ -134,7 +134,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6" data-aos="zoom-in">
-                        <img src="/assets/img/sms-bulk-messaging.webp" class="img-fluid rounded-4 shadow-lg border" alt="SMSBox Dashboard">
+                        <img src="/assets/img/sms-bulk-messaging.webp" class="img-fluid rounded-4 shadow-lg" alt="SMSBox Dashboard">
                     </div>
                 </div>
             </div>

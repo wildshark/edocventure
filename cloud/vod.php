@@ -145,7 +145,7 @@
                         </div>
                     </div>
                     <div class="col-lg-5 text-center" data-aos="zoom-in">
-                        <img src="/assets/img/cloud-vod-streaming-infra.webp" class="img-fluid rounded-4 shadow-lg border border-secondary border-opacity-25" alt="Streaming Infrastructure">
+                        <img src="/assets/img/cloud-vod-streaming-infra.webp" class="img-fluid rounded-4 shadow-lg" alt="Streaming Infrastructure">
                     </div>
                 </div>
             </div>

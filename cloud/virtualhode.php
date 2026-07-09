@@ -142,7 +142,7 @@
                 </div>
                 <div class="mt-5 pt-5" data-aos="zoom-in">
                     <!-- Tech visual: Server Mesh -->
-                    <img src="/assets/img/virtualhode-datacenter.webp" class="img-fluid rounded-4 shadow-lg border border-secondary border-opacity-25" alt="Data Center Architecture">
+                    <img src="/assets/img/virtualhode-datacenter.webp" class="img-fluid rounded-4 shadow-lg" alt="Data Center Architecture">
                 </div>
             </div>
         </section>

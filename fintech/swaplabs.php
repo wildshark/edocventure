@@ -90,9 +90,9 @@
         .btn-quest:hover { background: var(--edoc-primary); color: white; transform: translateY(-3px); }
 
         .qr-mockup {
-            max-width: 300px;
-            border: 10px solid #fff;
-            border-radius: 30px;
+            max-width: 100%;
+            border: none;
+            border-radius: 16px;
             box-shadow: 0 30px 60px rgba(0,0,0,0.1);
         }
         /* === DARK MODE OVERRIDES === */
@@ -140,7 +140,7 @@
                         </div>
                     </div>
                     <div class="col-lg-5 text-center" data-aos="zoom-in">
-                        <img src="/assets/img/fintech-swaplabs-qr-scanner.webp" class="img-fluid rounded-4 shadow-lg qr-mockup" alt="Quest Pay QR Scanner">
+                        <img src="/assets/img/fintech-swaplabs-qr-scanner.webp" class="img-fluid rounded-4" alt="Quest Pay QR Scanner">
                     </div>
                 </div>
             </div>
@@ -215,7 +215,7 @@
                             <a href="/quation" class="btn btn-info btn-lg px-4 py-3 fw-bold text-white">Join the Payment Revolution</a>
                         </div>
                         <div class="col-lg-6 d-none d-lg-block text-center">
-                            <img src="/assets/img/fintech-swaplabs-digital-economy.webp" class="img-fluid rounded-4 shadow-lg border-primary" alt="Digital Economy">
+                            <img src="/assets/img/fintech-swaplabs-digital-economy.webp" class="img-fluid rounded-4" alt="Digital Economy">
                         </div>
                     </div>
                 </div>

@@ -131,7 +131,7 @@
                         </div>
                     </div>
                     <div class="col-lg-5" data-aos="zoom-in">
-                        <img src="/assets/img/mylibrary-dashboard-ghana.webp" class="img-fluid rounded-4 shadow-lg border" alt="Digital Library Mockup">
+                        <img src="/assets/img/mylibrary-dashboard-ghana.webp" class="img-fluid rounded-4 shadow-lg" alt="Digital Library Mockup">
                     </div>
                 </div>
             </div>

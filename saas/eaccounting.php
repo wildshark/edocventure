@@ -249,7 +249,7 @@
                             <a href="/quation" class="btn btn-ai px-5 py-3 fw-bold">Explore AI Analytics</a>
                         </div>
                         <div class="col-lg-5 d-none d-lg-block text-center">
-                            <img src="/assets/img/eaccounting-dashboard-ghana.webp" class="img-fluid rounded-4 shadow-lg border-primary" alt="Financial Dashboard">
+                            <img src="/assets/img/eaccounting-dashboard-ghana.webp" class="img-fluid rounded-4 shadow-lg" alt="Financial Dashboard">
                         </div>
                     </div>
                 </div>

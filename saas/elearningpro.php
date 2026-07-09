@@ -133,7 +133,7 @@
                     <div class="col-lg-6" data-aos="zoom-in">
                         <div class="mockup-container text-center">
                             <!-- Placeholder: Replace with a dashboard UI screenshot -->
-                            <img src="/assets/img/elearning-dashboard-ghana.webp" class="img-fluid rounded-4 shadow-lg border" alt="eLearning Pro Dashboard">
+                            <img src="/assets/img/elearning-dashboard-ghana.webp" class="img-fluid rounded-4 shadow-lg" alt="eLearning Pro Dashboard">
                         </div>
                     </div>
                 </div>

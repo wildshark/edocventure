@@ -110,7 +110,7 @@
                         </div>
                     </div>
                     <div class="col-lg-5 d-none d-lg-block" data-aos="zoom-in">
-                        <img src="/assets/img/data-analytics-hero.webp" class="img-fluid rounded-4 shadow-lg border border-secondary border-opacity-25" alt="Data Analytics Dashboard">
+                        <img src="/assets/img/data-analytics-hero.webp" class="img-fluid rounded-4 shadow-lg" alt="Data Analytics Dashboard">
                     </div>
                 </div>
             </div>

@@ -129,7 +129,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6" data-aos="zoom-in">
-                        <img src="/assets/img/ekkilsia-crm-ghana.webp" class="img-fluid rounded-4 shadow-lg border" alt="Ministry Engagement">
+                        <img src="/assets/img/ekkilsia-crm-ghana.webp" class="img-fluid rounded-4 shadow-lg" alt="Ministry Engagement">
                     </div>
                 </div>
             </div>
