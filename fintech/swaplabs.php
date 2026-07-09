@@ -136,7 +136,7 @@
                             <a href="/quation" class="btn btn-outline-dark px-4 py-3 border-2 fw-bold rounded-3">Start a Fundraiser</a>
                         </div>
                         <div class="mt-4 small text-muted">
-                            <i class="fa-solid fa-shield-check me-2 text-success"></i> PCI-DSS Compliant & Real-Time Fraud Monitoring
+                            <i class="fa-solid fa-shield-halved me-2 text-success"></i> PCI-DSS Compliant & Real-Time Fraud Monitoring
                         </div>
                     </div>
                     <div class="col-lg-5 text-center" data-aos="zoom-in">

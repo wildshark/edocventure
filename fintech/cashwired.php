@@ -180,7 +180,7 @@
                     <!-- Feature 4 -->
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
                         <div class="bank-card">
-                            <div class="bank-icon"><i class="fa-solid fa-shield-check"></i></div>
+                            <div class="bank-icon"><i class="fa-solid fa-shield-halved"></i></div>
                             <h5 class="fw-bold">Fund Transparency</h5>
                             <p class="small text-muted mb-0">Immutable digital ledgers ensure that every penny is accounted for. Real-time audit trails for all stakeholders.</p>
                         </div>
@@ -196,7 +196,7 @@
                     <!-- Feature 6 -->
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                         <div class="bank-card">
-                            <div class="bank-icon"><i class="fa-solid fa-chart-line-up"></i></div>
+                            <div class="bank-icon"><i class="fa-solid fa-chart-line"></i></div>
                             <h5 class="fw-bold">Micro-Credit Ready</h5>
                             <p class="small text-muted mb-0">Advanced data analytics to assess savings patterns and offer automated micro-loans based on community history.</p>
                         </div>

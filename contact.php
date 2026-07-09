@@ -37,7 +37,7 @@
             --edoc-light: #f8fafc;
         }
 
-        body { font-family: 'Inter', sans-serif; color: #475569; background-color: var(--edoc-light); line-height: 1.7; }
+        body { font-family: 'Inter', sans-serif; color: #475569; overflow-x: hidden; background-color: var(--edoc-light); line-height: 1.7; }
         h1, h2, h3, h4, .display-5 { font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--edoc-dark); letter-spacing: -0.02em; }
 
         /* --- TOP MENU & NAV - loaded from topmenu.php --- */

@@ -212,7 +212,7 @@
                     <!-- Feature 5 -->
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
                         <div class="pay-card">
-                            <div class="pay-icon"><i class="fa-solid fa-file-chart-column"></i></div>
+                            <div class="pay-icon"><i class="fa-solid fa-file-invoice"></i></div>
                             <h5 class="fw-bold">Audit Transparency</h5>
                             <p class="small text-muted mb-0">Immutable records minimize risk of data loss. Every payment is tracked with a unique digital signature and verifiable receipt.</p>
                         </div>

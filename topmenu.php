@@ -1,4 +1,21 @@
 <style>
+/* --- GLOBAL RESET: Prevent horizontal overflow on ALL pages --- */
+html {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+body {
+    overflow-x: hidden !important;
+    max-width: 100vw;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.main-wrapper {
+    overflow-x: hidden;
+    width: 100%;
+}
+
 /* --- GLOBAL SECTION SPACING (THEME 5.0) --- */
 .py-120 {
     padding-top: 120px !important;
@@ -22,7 +39,7 @@
 .nav-link { font-weight: 600; color: var(--edoc-dark, #0f172a) !important; padding: 10px 18px !important; font-size: 0.95rem; }
 
 /* --- MEGA MENU --- */
-.dropdown-menu { border: none; border-radius: 16px; padding: 25px; min-width: 750px; box-shadow: 0 20px 50px rgba(0,0,0,0.15); }
+.dropdown-menu { border: none; border-radius: 16px; padding: 25px; min-width: 700px; max-width: 95vw; box-shadow: 0 20px 50px rgba(0,0,0,0.15); }
 .drop-heading { color: var(--edoc-primary, #4f46e5); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1.5px; font-weight: 800; margin-bottom: 15px; border-bottom: 1px solid #f1f5f9; padding-bottom: 5px; }
 .dropdown-link { display: flex; align-items: start; padding: 12px; border-radius: 12px; text-decoration: none; transition: 0.3s; margin-bottom: 5px; }
 .dropdown-link:hover { background: #f8fafc; transform: translateX(5px); }

@@ -23,7 +23,7 @@
             --edoc-dark: #0f172a;
             --edoc-footer: #020617;
         }
-        body { font-family: 'Inter', sans-serif; color: #475569; background-color: #f8fafc; line-height: 1.8; }
+        body { font-family: 'Inter', sans-serif; color: #475569; overflow-x: hidden; background-color: #f8fafc; line-height: 1.8; }
         h1, h2, h3, h4, h5 { font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--edoc-dark); letter-spacing: -0.02em; }
 
         /* ── HERO ── */
