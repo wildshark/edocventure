@@ -66,21 +66,49 @@
 
         /* --- SERVICE SELECTION BOXES --- */
         .service-selector {
-            border: 1px solid #e2e8f0;
+            border: 2px solid #e2e8f0;
             border-radius: 12px;
-            padding: 15px;
+            padding: 15px 15px 15px 12px;
             cursor: pointer;
-            transition: 0.3s;
+            transition: all 0.25s ease;
             display: flex;
             align-items: center;
             height: 100%;
+            position: relative;
+            user-select: none;
         }
-        .service-selector:hover { border-color: var(--edco-primary); background: #f0f4ff; }
-        .form-check-input:checked + .service-selector { 
-            border-color: var(--edco-primary); 
-            background: #eef2ff; 
-            box-shadow: 0 0 0 2px var(--edco-primary);
+        .service-selector:hover {
+            border-color: var(--edco-primary);
+            background: #f0f4ff;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(79,70,229,0.1);
         }
+        .service-selector.active {
+            border-color: var(--edco-primary);
+            background: #eef2ff;
+            box-shadow: 0 0 0 3px rgba(79,70,229,0.25);
+            transform: translateY(-2px);
+        }
+        .service-selector .svc-tick {
+            display: none;
+            position: absolute;
+            top: 8px;
+            right: 10px;
+            width: 20px;
+            height: 20px;
+            background: var(--edco-primary);
+            border-radius: 50%;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.6rem;
+            color: #fff;
+        }
+        .service-selector.active .svc-tick { display: flex; }
+        /* dark mode service boxes */
+        body[data-theme="dark"] .service-selector { border-color: #334155; background: #1e293b; color: #cbd5e1; }
+        body[data-theme="dark"] .service-selector:hover { background: #243147; border-color: #6366f1; }
+        body[data-theme="dark"] .service-selector.active { background: #1e1b4b; border-color: #818cf8; box-shadow: 0 0 0 3px rgba(129,140,248,0.25); }
+        body[data-theme="dark"] .service-selector i.text-primary { color: #818cf8 !important; }
 
         /* --- SIDEBAR INFO --- */
         .info-box { background: var(--edco-primary); color: white; border-radius: 20px; padding: 40px; margin-bottom: 30px; }
@@ -144,44 +172,46 @@
                                 </div>
 
                                 <h4 class="mb-4">2. Select Required Services</h4>
-                                <div class="row g-3 mb-5">
+                                <div class="row g-3 mb-5" id="serviceGrid">
                                     <div class="col-md-4">
-                                        <input type="checkbox" class="btn-check" id="service1" name="svc_software" autocomplete="off">
-                                        <label class="service-selector" for="service1">
+                                        <div class="service-selector" data-service="Software Dev">
+                                            <span class="svc-tick"><i class="fa-solid fa-check"></i></span>
                                             <i class="fa-solid fa-code text-primary me-3"></i> Software Dev
-                                        </label>
+                                        </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <input type="checkbox" class="btn-check" id="service2" name="svc_cloud" autocomplete="off">
-                                        <label class="service-selector" for="service2">
+                                        <div class="service-selector" data-service="Cloud Infra">
+                                            <span class="svc-tick"><i class="fa-solid fa-check"></i></span>
                                             <i class="fa-solid fa-cloud text-primary me-3"></i> Cloud Infra
-                                        </label>
+                                        </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <input type="checkbox" class="btn-check" id="service3" name="svc_consulting" autocomplete="off">
-                                        <label class="service-selector" for="service3">
+                                        <div class="service-selector" data-service="Consulting">
+                                            <span class="svc-tick"><i class="fa-solid fa-check"></i></span>
                                             <i class="fa-solid fa-chess-knight text-primary me-3"></i> Consulting
-                                        </label>
+                                        </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <input type="checkbox" class="btn-check" id="service4" name="svc_server" autocomplete="off">
-                                        <label class="service-selector" for="service4">
+                                        <div class="service-selector" data-service="Server Setup">
+                                            <span class="svc-tick"><i class="fa-solid fa-check"></i></span>
                                             <i class="fa-solid fa-server text-primary me-3"></i> Server Setup
-                                        </label>
+                                        </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <input type="checkbox" class="btn-check" id="service5" name="svc_fintech" autocomplete="off">
-                                        <label class="service-selector" for="service5">
+                                        <div class="service-selector" data-service="Fintech Lab">
+                                            <span class="svc-tick"><i class="fa-solid fa-check"></i></span>
                                             <i class="fa-solid fa-money-bill-transfer text-primary me-3"></i> Fintech Lab
-                                        </label>
+                                        </div>
                                     </div>
                                     <div class="col-md-4">
-                                        <input type="checkbox" class="btn-check" id="service6" name="svc_academy" autocomplete="off">
-                                        <label class="service-selector" for="service6">
+                                        <div class="service-selector" data-service="Academy">
+                                            <span class="svc-tick"><i class="fa-solid fa-check"></i></span>
                                             <i class="fa-solid fa-graduation-cap text-primary me-3"></i> Academy
-                                        </label>
+                                        </div>
                                     </div>
                                 </div>
+                                <!-- hidden field populated by JS -->
+                                <input type="hidden" name="services" id="servicesField">
 
                                 <h4 class="mb-4">3. Project Scope & Timeline</h4>
                                 <div class="row g-4 mb-4">
@@ -267,23 +297,31 @@
     <script>
         AOS.init({ once: true, duration: 800 });
 
+        // ── Service Selector Toggle ───────────────────────────
+        $(document).on('click', '.service-selector', function() {
+            $(this).toggleClass('active');
+            // Update the hidden field with all active selections
+            const selected = [];
+            $('.service-selector.active').each(function() {
+                selected.push($(this).data('service'));
+            });
+            $('#servicesField').val(selected.join(', '));
+        });
+
         // ── RFQ Form AJAX Submit ─────────────────────────────
         $('#rfqForm').on('submit', function(e) {
             e.preventDefault();
             const btn   = $('#rfqBtn');
             const toast = $('#rfqToast');
 
-            // Collect checked services
-            const services = [];
-            if ($('#service1').is(':checked')) services.push('Software Dev');
-            if ($('#service2').is(':checked')) services.push('Cloud Infra');
-            if ($('#service3').is(':checked')) services.push('Consulting');
-            if ($('#service4').is(':checked')) services.push('Server Setup');
-            if ($('#service5').is(':checked')) services.push('Fintech Lab');
-            if ($('#service6').is(':checked')) services.push('Academy');
+            // Ensure hidden services field is populated
+            const selected = [];
+            $('.service-selector.active').each(function() {
+                selected.push($(this).data('service'));
+            });
+            $('#servicesField').val(selected.join(', '));
 
             const formData = $(this).serializeArray();
-            formData.push({ name: 'services', value: services.join(', ') });
 
             btn.prop('disabled', true).html('<i class="fa-solid fa-spinner fa-spin me-2"></i> Submitting...');
             toast.addClass('d-none');
@@ -297,8 +335,10 @@
                     if (res.success) {
                         toast.removeClass('d-none alert-danger').addClass('alert-success')
                              .html('<i class="fa-solid fa-circle-check me-2"></i>' + res.message);
+                        // Reset form and clear service selections
                         $('#rfqForm')[0].reset();
-                        $('.service-selector').css({'border-color':'','background':''});
+                        $('.service-selector').removeClass('active');
+                        $('#servicesField').val('');
                     } else {
                         toast.removeClass('d-none alert-success').addClass('alert-danger')
                              .html('<i class="fa-solid fa-circle-xmark me-2"></i>' + res.message);
