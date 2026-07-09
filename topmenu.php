@@ -330,6 +330,13 @@ body[data-theme="dark"] .lab-box,
 body[data-theme="dark"] .stat-card,
 body[data-theme="dark"] .team-card,
 body[data-theme="dark"] .pillar-card,
+body[data-theme="dark"] .ai-card,
+body[data-theme="dark"] .pay-card,
+body[data-theme="dark"] .bank-card,
+body[data-theme="dark"] .radio-card,
+body[data-theme="dark"] .vod-card,
+body[data-theme="dark"] .sector-card,
+body[data-theme="dark"] .node-card,
 body[data-theme="dark"] .feature-card {
     background-color: #111827 !important;
     border-color: rgba(255, 255, 255, 0.08) !important;
@@ -337,10 +344,48 @@ body[data-theme="dark"] .feature-card {
     box-shadow: 0 20px 40px rgba(0,0,0,0.3) !important;
 }
 
+/* Headings INSIDE dark-mode cards must always be light */
+body[data-theme="dark"] .ai-card h1,   body[data-theme="dark"] .ai-card h2,
+body[data-theme="dark"] .ai-card h3,   body[data-theme="dark"] .ai-card h4,
+body[data-theme="dark"] .ai-card h5,   body[data-theme="dark"] .ai-card h6,
+body[data-theme="dark"] .pay-card h1,  body[data-theme="dark"] .pay-card h2,
+body[data-theme="dark"] .pay-card h3,  body[data-theme="dark"] .pay-card h4,
+body[data-theme="dark"] .pay-card h5,  body[data-theme="dark"] .pay-card h6,
+body[data-theme="dark"] .bank-card h1, body[data-theme="dark"] .bank-card h2,
+body[data-theme="dark"] .bank-card h3, body[data-theme="dark"] .bank-card h4,
+body[data-theme="dark"] .bank-card h5, body[data-theme="dark"] .bank-card h6,
+body[data-theme="dark"] .radio-card h1,body[data-theme="dark"] .radio-card h2,
+body[data-theme="dark"] .radio-card h3,body[data-theme="dark"] .radio-card h4,
+body[data-theme="dark"] .radio-card h5,body[data-theme="dark"] .radio-card h6,
+body[data-theme="dark"] .vod-card h1,  body[data-theme="dark"] .vod-card h2,
+body[data-theme="dark"] .vod-card h3,  body[data-theme="dark"] .vod-card h4,
+body[data-theme="dark"] .vod-card h5,  body[data-theme="dark"] .vod-card h6,
+body[data-theme="dark"] .sector-card h1, body[data-theme="dark"] .sector-card h2,
+body[data-theme="dark"] .sector-card h3, body[data-theme="dark"] .sector-card h4,
+body[data-theme="dark"] .sector-card h5, body[data-theme="dark"] .sector-card h6,
+body[data-theme="dark"] .node-card h1, body[data-theme="dark"] .node-card h2,
+body[data-theme="dark"] .node-card h3, body[data-theme="dark"] .node-card h4,
+body[data-theme="dark"] .node-card h5, body[data-theme="dark"] .node-card h6,
+body[data-theme="dark"] .pillar-card h1,body[data-theme="dark"] .pillar-card h2,
+body[data-theme="dark"] .pillar-card h3,body[data-theme="dark"] .pillar-card h4,
+body[data-theme="dark"] .pillar-card h5,body[data-theme="dark"] .pillar-card h6,
+body[data-theme="dark"] .feature-card h1,body[data-theme="dark"] .feature-card h2,
+body[data-theme="dark"] .feature-card h3,body[data-theme="dark"] .feature-card h4,
+body[data-theme="dark"] .feature-card h5,body[data-theme="dark"] .feature-card h6,
+body[data-theme="dark"] .value-card h1, body[data-theme="dark"] .value-card h2,
+body[data-theme="dark"] .value-card h3, body[data-theme="dark"] .value-card h4,
+body[data-theme="dark"] .value-card h5, body[data-theme="dark"] .value-card h6,
+body[data-theme="dark"] .team-card h1,  body[data-theme="dark"] .team-card h2,
+body[data-theme="dark"] .team-card h3,  body[data-theme="dark"] .team-card h4,
+body[data-theme="dark"] .team-card h5,  body[data-theme="dark"] .team-card h6 {
+    color: #f1f5f9 !important;
+}
+
 body[data-theme="dark"] .stat-card h2,
 body[data-theme="dark"] .stat-card p {
     color: #f8fafc !important;
 }
+
 
 body[data-theme="dark"] .text-primary {
     color: #818cf8 !important;

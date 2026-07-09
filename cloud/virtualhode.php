@@ -106,7 +106,11 @@
         body[data-theme="dark"] .feature-card,
         body[data-theme="dark"] .value-card,
         body[data-theme="dark"] .course-card,
+        body[data-theme="dark"] .node-card,
         body[data-theme="dark"] .stat-card { background: #1e293b !important; border-color: rgba(255,255,255,0.08) !important; }
+        body[data-theme="dark"] .node-card h1, body[data-theme="dark"] .node-card h2,
+        body[data-theme="dark"] .node-card h3, body[data-theme="dark"] .node-card h4,
+        body[data-theme="dark"] .node-card h5, body[data-theme="dark"] .node-card h6 { color: #f1f5f9 !important; }
         body[data-theme="dark"] .product-hero, body[data-theme="dark"] .page-header,
         body[data-theme="dark"] .service-hero, body[data-theme="dark"] .academy-hero { color: #f8fafc !important; }
         body[data-theme="dark"] .hero-badge { background: rgba(99,102,241,0.15) !important; color: #818cf8 !important; }
