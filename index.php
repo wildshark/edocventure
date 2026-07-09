@@ -2,8 +2,17 @@
 
 define('EDOC_LOADED', true);
 
+// ── Routing: support both Apache mod_rewrite (?page=X) and PHP built-in server (clean URI path) ──
+if (!isset($_REQUEST['page']) || $_REQUEST['page'] === '') {
+    // Extract the path from the request URI (strip leading slash and query string)
+    $uri_path = trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
+    if (!empty($uri_path) && $uri_path !== 'index.php') {
+        $_REQUEST['page'] = $uri_path;
+    }
+}
+
 if(!isset($_REQUEST['submit'])){
-    if(!isset($_REQUEST['page'])){
+    if(!isset($_REQUEST['page']) || $_REQUEST['page'] === ''){
         include 'home.php';
     }else{
         $page = $_REQUEST['page'];
