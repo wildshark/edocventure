@@ -13,7 +13,7 @@
     <meta property="og:url" content="https://www.edocventures.com">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="https://www.edocventures.com/assets/img/EDCO.png">
-    <link rel="icon" href="assets/img/EDCO.png" type="image/png">
+    <link rel="icon" href="/assets/img/EDCO.png" type="image/png">
 
     <!-- CDN: Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

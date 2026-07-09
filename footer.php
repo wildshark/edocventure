@@ -15,7 +15,7 @@
                 <div class="row g-5">
                     <div class="col-lg-4 col-md-6">
                         <a href="?page=home" class="d-inline-block">
-                            <img src="assets/img/EDCO.png" alt="Edco Ventures" style="height: 40px;" class="mb-4">
+                            <img src="/assets/img/EDCO.png" alt="Edco Ventures" style="height: 40px;" class="mb-4">
                         </a>
                         <p>Delivering high-performance IT solutions that empower enterprises to lead in the digital age. Your trusted partner for global innovation.</p>
                         <div class="mt-4">

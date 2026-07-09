@@ -788,7 +788,7 @@ body[data-theme="dark"] .newsletter-input::placeholder {
             <nav class="navbar navbar-expand-xl navbar-light">
                 <div class="container">
                     <a href="?page=home" class="navbar-brand">
-                        <img src="assets/img/EDCO.png" alt="Edco Ventures" style="height: 48px;" />
+                        <img src="/assets/img/EDCO.png" alt="Edco Ventures" style="height: 48px;" />
                     </a>
                     <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                         <i class="fa-solid fa-bars-staggered"></i>
