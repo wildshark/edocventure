@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /fintech/
+
+# Route all requests through root index.php with fintech/ prefix
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)$ /index.php?page=fintech/$1 [L,QSA]

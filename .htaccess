@@ -1,4 +1,4 @@
-Options -Indexes
+Options -Indexes -MultiViews
 RewriteEngine On
 
 # Allow direct access to real files and directories

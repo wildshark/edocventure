@@ -211,14 +211,14 @@
                         </a>
                     </div>
                     <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                        <a href="/cloud/virtualhode" class="product-item">
+                        <a href="/virtualhode" class="product-item">
                             <i class="fa-solid fa-server product-icon"></i>
                             <h5 class="fw-bold">Cloud Nodes</h5>
                             <p class="small text-muted">Virtual machine orchestration and cloud hosting.</p>
                         </a>
                     </div>
                     <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
-                        <a href="/cloud/vod" class="product-item">
+                        <a href="/vod" class="product-item">
                             <i class="fa-solid fa-video product-icon"></i>
                             <h5 class="fw-bold">VOD Manager</h5>
                             <p class="small text-muted">Professional video content delivery and streaming.</p>

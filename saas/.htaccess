@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /saas/
+
+# Route all requests through root index.php with saas/ prefix
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)$ /index.php?page=saas/$1 [L,QSA]

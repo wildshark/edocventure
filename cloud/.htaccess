@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /cloud/
+
+# Route all requests through root index.php with cloud/ prefix
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)$ /index.php?page=cloud/$1 [L,QSA]

@@ -831,11 +831,11 @@ body[data-theme="dark"] .newsletter-input::placeholder {
                                         </div>
                                         <div class="col-md-4">
                                             <h6 class="drop-heading">Infrastructure</h6>
-                                            <a href="/cloud/virtualhode" class="dropdown-link">
+                                            <a href="/virtualhode" class="dropdown-link">
                                                 <div class="drop-icon"><i class="fa-solid fa-server"></i></div>
                                                 <div><span class="drop-title">Cloud Nodes</span><p class="drop-desc">Virtual machine orchestration and cloud hosting.</p></div>
                                             </a>
-                                            <a href="/cloud/vod" class="dropdown-link">
+                                            <a href="/vod" class="dropdown-link">
                                                 <div class="drop-icon"><i class="fa-solid fa-video"></i></div>
                                                 <div><span class="drop-title">VOD Manager</span><p class="drop-desc">Professional video content delivery and streaming.</p></div>
                                             </a>

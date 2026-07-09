@@ -71,20 +71,7 @@ if(!isset($_REQUEST['submit'])){
                     include 'home.php';
                 }
                 break;
-            case 'cloud/virtualhode':
-                if(file_exists('cloud/virtualhode.php')){
-                    include 'cloud/virtualhode.php';
-                } else {
-                    include 'home.php';
-                }
-                break;
-            case 'cloud/vod':
-                if(file_exists('cloud/vod.php')){
-                    include 'cloud/vod.php';
-                } else {
-                    include 'home.php';
-                }
-                break;
+
             case 'academy':
                 if(file_exists('academy.php')){
                     include 'academy.php';
@@ -148,6 +135,7 @@ if(!isset($_REQUEST['submit'])){
                     include 'home.php';
                 }
                 break;
+
             case 'privacy':
                 if(file_exists('privacy.php')){
                     include 'privacy.php';

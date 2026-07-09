@@ -29,8 +29,8 @@
                         <ul class="footer-links">
                             <li><a href="/elearningpro">eLearning Pro</a></li>
                             <li><a href="/sms">SMSBox-247</a></li>
-                            <li><a href="/saas/ekkilsia">Ekkilsia CRM</a></li>
-                            <li><a href="/saas/mylibrary">myLibrary</a></li>
+                            <li><a href="/ekkilsia">Ekkilsia CRM</a></li>
+                            <li><a href="/mylibrary">myLibrary</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-2 col-md-6">
@@ -38,8 +38,8 @@
                         <ul class="footer-links">
                             <li><a href="/swaplabs">Swap Labs</a></li>
                             <li><a href="/questpay">Quest Pay</a></li>
-                            <li><a href="/fintech/cashwired">CashWired</a></li>
-                            <li><a href="/cloud/virtualhode">Digital Nodes</a></li>
+                            <li><a href="/cashwired">CashWired</a></li>
+                            <li><a href="/virtualhode">Digital Nodes</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-4 col-md-6">
